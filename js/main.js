@@ -4,6 +4,7 @@ var SINAR_API = "https://sinar-malaysia.popit.mysociety.org/api/v0.1/persons/";
 
 
 var politicians = [];
+var politician;
 var fbP;
 
 
@@ -48,30 +49,41 @@ function showPoliticianData(politician) {
   }
 }
 
-var politician;
+function randomizePolitician() {
+  var randomize = Math.floor(politicians.length * Math.random());
+  console.log("POLITICIAN LOADED!", politicians[randomize]);
+
+  fbPP.child("politician/" + politicians[randomize]).once("value", function(snapshot){
+    politician = snapshot.val();
+
+    if (!politician.checked_person) {
+      loadPolitianData(politicians[randomize]);
+
+    } else {
+
+      showPoliticianData(politician);
+    }
+  });
+}
+
+
+
+
+
 
 $(document).ready(function(){
 
+  $("#btn_play").click(function(e){
+    e.preventDefault();
+    randomizePolitician();
+  });
   console.log("OK");
 
   fbPP = new Firebase(FIREBASE_ROOT);
   fbPP.child("politicians").once("value", function(snapshot) {
+    console.log("POLITICIANS LOADED!", politicians.length);
     politicians = snapshot.val();
-
-    var randomize = Math.floor(snapshot.numChildren() * Math.random());
-    console.log("POLITICIANS LOADED!", snapshot.numChildren(), randomize, politicians[randomize]);
-
-    fbPP.child("politician/" + politicians[randomize]).once("value", function(snapshot){
-      politician = snapshot.val();
-
-      if (!politician.checked_person) {
-        loadPolitianData(politicians[randomize]);
-
-      } else {
-
-        showPoliticianData(politician);
-      }
-    });
+    randomizePolitician();
 
   }, function (errorObject) {
     console.log("The read failed: " + errorObject.code);
