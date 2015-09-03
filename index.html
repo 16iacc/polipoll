@@ -59,14 +59,16 @@
 
               <div class="mdl-grid">
 
+
+
                 <div class="politician-photo mdl-cell mdl-cell--5-col mdl-card__supporting-text">
                 </div>
                 <div class="politician-description mdl-cell mdl-cell--7-col mdl-card__supporting-text">
-                  <h3 class="politician_name">[NAME]</h3>
-                  <p class="politician_summary">[SUMMARY]</p>
+                  <div class="mdl-spinner mdl-spinner--single-color mdl-js-spinner is-active"></div>
+                  <h3 class="politician_name"></h3>
+                  <p class="politician_summary"></p>
                 </div>
               </div>
-
 
 
           </div>
@@ -94,10 +96,12 @@
 
             <div class="matches">
 
-                  <h5 class="mdl-badge">
-                    <span class="mdl-badge" data-badge="3">Help us find matches for Anwar Ibrahim</span>
-                  </h5>
+<div class="mdl-spinner mdl-spinner--single-color mdl-js-spinner is-active"></div>
 
+                  <h5 class="mdl-badge">
+                    <!--<span class="mdl-badge companies_count" data-badge="3">-->
+                      Help us find matches for <span class="politician_name">...</span> </span>
+                  </h5>
 
                   <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
                     <thead>
@@ -115,7 +119,7 @@
                         </th>
                       </tr>
                     </thead>
-                    <tbody>
+                    <tbody class="companies">
                       <tr>
                         <td class="mdl-data-table__cell--non-numeric">
                           <p>
@@ -150,81 +154,90 @@
                       </tr>
 
 
-                      <tr>
-                        <td class="mdl-data-table__cell--non-numeric">
-                          <p>
-                            98%
-                          </p>
-                        </td>
-                        <td class="mdl-data-table__cell--non-numeric">
-                          <p>
-                            <b>Full Name</b> @ Company Name
-                          </p>
-                        </td>
-                        <td>
-                          <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="c2-1">
-                            <input type="radio" id="c2-1" class="mdl-radio__button" name="c2" value="1" />&nbsp;
-                          </label>
-                        </td>
-                        <td>
-                          <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="c2-2">
-                            <input type="radio" id="c2-2" class="mdl-radio__button" name="c2" value="2"  />&nbsp;
-                          </label>
-                        </td>
-                        <td>
-                          <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="c2-3">
-                            <input type="radio" id="c2-3" class="mdl-radio__button" name="c2" value="3"  />&nbsp;
-                          </label>
-                        </td>
-                      </tr>
 
-
-
-                      <tr>
-                        <td class="mdl-data-table__cell--non-numeric">
-                          <p>
-                            98%
-                          </p>
-                        </td>
-                        <td class="mdl-data-table__cell--non-numeric">
-                          <p>
-                            <b>Full Name</b> @ Company Name
-                          </p>
-                        </td>
-                        <td>
-                          <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="c3-1">
-                            <input type="radio" id="c3-1" class="mdl-radio__button" name="c3" value="1" />&nbsp;
-                          </label>
-                        </td>
-                        <td>
-                          <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="c3-2">
-                            <input type="radio" id="c3-2" class="mdl-radio__button" name="c3" value="2"  />&nbsp;
-                          </label>
-                        </td>
-                        <td>
-                          <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="c3-3">
-                            <input type="radio" id="c3-3" class="mdl-radio__button" name="c3" value="3"  />&nbsp;
-                          </label>
-                        </td>
-                      </tr>
 
                     </tbody>
                   </table>
 
-
-                  <div class="mdl-card__actions">
-                    <div class="mdl-layout-spacer"></div>
-                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent mdl-js-ripple-effect">
-                      Save Match
-                    </button>
-
-                  </div>
 
 
 
               </div>
 
 
+
+
+<!--
+              <div class="projects">
+
+                    <h5 class="mdl-badge">
+                        Help us confirm the projects bellow are public contracts </span>
+                    </h5>
+
+
+                    <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+                      <thead>
+                        <tr>
+                          <th class="mdl-data-table__cell--non-numeric">Name @ Company</th>
+                          <th>
+                            <span id="ttConfirm"><span class="icon material-icons">ic_thumb_up</span> Confirm</span>
+                          </th>
+                          <th>
+                            <span id="ttDontKnow"><span class="icon material-icons">ic_help_outline</span> Don't know</span>
+                          </th>
+                          <th>
+                            <span id="ttWrong"><span class="icon material-icons">ic_thumb_down</span> Not him/her</span>
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody class="companies">
+                        <tr>
+                          <td class="mdl-data-table__cell--non-numeric">
+                            <p>
+                              <b>Full Name</b> @ Company Name
+                            </p>
+                          </td>
+                          <td>
+                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="c1-1">
+                              <input type="radio" id="c1-1" class="mdl-radio__button" name="c1" value="1" />&nbsp;
+                            </label>
+
+                          </td>
+                          <td>
+
+                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="c1-2">
+                              <input type="radio" id="c1-2" class="mdl-radio__button" name="c1" value="2"  />&nbsp;
+                            </label>
+
+                          </td>
+                          <td>
+
+                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="c1-3">
+                              <input type="radio" id="c1-3" class="mdl-radio__button" name="c1" value="3"  />&nbsp;
+                            </label>
+
+                          </td>
+                        </tr>
+
+
+
+
+                      </tbody>
+                    </table>
+                </div>
+
+              -->
+              <div class="votes">
+
+
+                  <div class="mdl-card__actions">
+                    <div class="mdl-layout-spacer"></div>
+                    <button id="btn_savematch" class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent mdl-js-ripple-effect">
+                      Save Match
+                    </button>
+
+                  </div>
+              </div>
 
 
           </div>
