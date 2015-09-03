@@ -58,6 +58,19 @@ function showPoliticianData() {
     //.matches table tbody
     //TODO: fullfill the table of matches
 
+    var certainty = (100.0 * parseFloat(politician.companies[company_id].certainty)).toPrecision(4);
+    var company_name = politician.companies[company_id].company_name;
+    var director_name = politician.companies[company_id].director_name;
+    var project_count = politician.companies[company_id].project_count;
+    var project_sum = politician.companies[company_id].project_sum;
+    var projects = politician.companies[company_id].projects;
+
+    $(".certainty").text(certainty);
+    $(".company_name").text(company_name);
+    $(".director_name").text(director_name);
+    $(".project_count").text(project_count);
+    $(".project_sum").text(project_sum);
+
   }
   $(".matches, .vote").show();
   $(".mdl-spinner").hide();
