@@ -15,13 +15,13 @@ function loadPolitianData(politician_id) {
 
 
 
+    fbPP.child("politician/" + politician_id + "/checked_person").set(true);
     fbPP.child("politician/" + politician_id + "/image").set(e.result.image || null);
     fbPP.child("politician/" + politician_id + "/html_url").set(e.result.html_url || "");
     fbPP.child("politician/" + politician_id + "/memberships").set(e.result.memberships || []);
     fbPP.child("politician/" + politician_id + "/summary").set(e.result.summary || "");
     fbPP.child("politician/" + politician_id + "/birth_date").set(e.result.birth_date || null);
     fbPP.child("politician/" + politician_id + "/death_date").set(e.result.death_date || null);
-    fbPP.child("politician/" + politician_id + "/checked_person").set(true);
 
     //curl "https://polipoll.firebaseio.com/politician/545e48ea5222837c2c0597c87.json"
 
@@ -55,9 +55,10 @@ $(document).ready(function(){
         loadPolitianData(politicians[randomize]);
 
       } else {
+
         console.log("SET POLITICIAN", politician);
         $(".politician_name").text(politician.politician_name);
-        $(".politician_sumary").text(politician.summary);
+        $(".politician_summary").text(politician.summary);
 
 
       }
