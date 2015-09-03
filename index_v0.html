@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>PoliPoll</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.indigo-pink.min.css">
+    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!--
+    <link rel="stylesheet" href="styles_home.css">
+    -->
+
+
+
+    <!-- Uses a transparent header that draws on top of the layout's background -->
+    <style>
+
+      .politician.mdl-card {
+        height: 400px;
+        background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Anwar_Ibrahim.jpg/398px-Anwar_Ibrahim.jpg') center / cover;
+      }
+
+      .politician-description {
+        padding: 10px;
+        height: 400px;
+
+      }
+
+
+      .politician-description h3 {
+        margin-top: 10px;
+      }
+      .politician-matches {
+        /*padding: 0 20px;*/
+
+      }
+
+      .politician-matches {
+
+      }
+
+      .spacer {
+        padding: 0 20px;
+      }
+
+
+      .mdl-data-table {
+        width: 100%;
+      }
+
+      .header-ribbon {
+        width: 100%;
+        height: 40vh;
+        /*background-color: #3F51B5;*/
+        -webkit-flex-shrink: 0;
+            -ms-flex-negative: 0;
+                flex-shrink: 0;
+      }
+
+      .main {
+        margin-top: -35vh;
+        margin-bottom: 80px;
+        -webkit-flex-shrink: 0;
+            -ms-flex-negative: 0;
+                flex-shrink: 0;
+      }
+
+
+      .mobile-title {
+        display: none !important;
+      }
+
+
+
+      .header .mdl-menu__container {
+        z-index: 50;
+        margin: 0 !important;
+      }
+
+
+      .header {
+        overflow: visible;
+        /*background-color: white;*/
+      }
+
+      .header .mdl-navigation__link {
+        font-weight: 700;
+        font-size: 14px;
+      }
+
+      .navigation-container {
+        /* Simple hack to make the overflow happen to the left instead... */
+        direction: rtl;
+        -webkit-box-ordinal-group: 2;
+        -webkit-order: 1;
+            -ms-flex-order: 1;
+                order: 1;
+        width: 500px;
+        -webkit-transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+            width 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+                transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+            width 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+
+      .navigation {
+        /* ... and now make sure the content is actually LTR */
+        direction: ltr;
+        -webkit-box-pack: end;
+        -webkit-justify-content: flex-end;
+            -ms-flex-pack: end;
+                justify-content: flex-end;
+        width: 800px;
+      }
+
+    </style>
+
+    <style media="screen">
+
+          .header .mdl-layout__header-row {
+            padding-left: 40px;
+          }
+
+          .container {
+            max-width: 1600px;
+            width: calc(100% - 16px);
+            margin: 0 auto;
+          }
+
+          .content {
+
+            border-radius: 2px;
+            /*padding: 80px 56px;*/
+            /*margin-bottom: 80px;*/
+          }
+
+          .layout.is-small-screen .content {
+            /*padding: 40px 28px;*/
+          }
+
+
+      .mdl-mini-footer {
+        padding-left: 40px;
+        background-color: #fafafa;
+        position: relative;
+      }
+
+      .mdl-mini-footer--link-list a {
+        font-size: 13px;
+      }
+      .mdl-mini-footer .mdl-mini-footer--social-btn {
+        color: #9e9e9e;
+        background-color: transparent;
+      }
+
+    </style>
+
+  </head>
+  <body>
+
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+      <div class="header mdl-layout__header mdl-layout__header--waterfall">
+        <div class="mdl-layout__header-row">
+          <span class="mdl-layout-title">
+            Poli Poll
+          </span>
+          <!-- Add spacer, to align navigation to the right in desktop -->
+          <div class="mdl-layout-spacer"></div>
+          <!-- Navigation -->
+          <div class="navigation-container">
+            <nav class="navigation mdl-navigation">
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="about.html">About</a>
+            </nav>
+          </div>
+          <span class="mobile-title mdl-layout-title">
+            Poli Poll
+          </span>
+        </div>
+      </div>
+
+
+      <div class="mdl-tooltip" for="btnPlay">
+       Start to play
+      </div>
+
+      <div class="header-ribbon mdl-color--grey-100"></div>
+
+      <main class="main mdl-layout__content">
+
+        <div class="container mdl-grid">
+
+          <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+          <div class="politician-description mdl-color--white mdl-shadow--4dp mdl-color-text--grey-800 mdl-cell mdl-cell--5-col">
+
+              <div class="mdl-card__supporting-text">
+                <h3>Anwar Ibrahim</h3>
+                <p>Dato' Seri Anwar Bin Ibrahim[1] (born 10 August 1947) is a Malaysian politician. He is the Leader of Opposition of Malaysia (Pakatan Rakyat), economic advisor to the state government of Selangor[2] and de facto leader of PKR (KeADILan). He served as the Deputy Prime Minister of Malaysia from 1993 to 1998 and Finance Minister from 1991 to 1998 when he was in UMNO, a major party in ruling Barisan Nasional coaltion.</p>
+              </div>
+
+          </div>
+          <div class="politician mdl-card mdl-color--white mdl-shadow--4dp mdl-color-text--grey-800 mdl-cell mdl-cell--3-col">
+
+            <div class="mdl-card__title mdl-card--expand">
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <a class="mdl-button mdl-button--colored mdl-color-text--white mdl-js-button mdl-js-ripple-effect">
+                See the results
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="container mdl-grid">
+
+          <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+          <div class="politician-matches mdl-color--white mdl-shadow--4dp mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
+
+
+            <div class="spacer">
+
+              <h5 class="mdl-badge">
+                <span class="mdl-badge" data-badge="3">Help us find matches for Anwar Ibrahim</span>
+              </h5>
+
+
+                  <table class="mdl-data-table mdl-js-data-table">
+                    <thead>
+                      <tr>
+                        <th class="mdl-data-table__cell--non-numeric">Name @ Company</th>
+                        <th>
+                          <span id="ttConfirm"><span class="icon material-icons">ic_thumb_up</span> Confirm</span>
+                        </th>
+                        <th>
+                          <span id="ttDontKnow"><span class="icon material-icons">ic_help_outline</span> Don't know</span>
+                        </th>
+                        <th>
+                          <span id="ttWrong"><span class="icon material-icons">ic_thumb_down</span> Not him/her</span>
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="mdl-data-table__cell--non-numeric">
+                          <p>
+                            <b>Full Name</b> @ Company Name
+                          </p>
+                        </td>
+                        <td>
+                          <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="c1-1">
+                            <input type="radio" id="c1-1" class="mdl-radio__button" name="c1" value="1" />&nbsp;
+                          </label>
+
+                        </td>
+                        <td>
+
+                          <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="c1-2">
+                            <input type="radio" id="c1-2" class="mdl-radio__button" name="c1" value="2"  />&nbsp;
+                          </label>
+
+                        </td>
+                        <td>
+
+                          <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="c1-3">
+                            <input type="radio" id="c1-3" class="mdl-radio__button" name="c1" value="3"  />&nbsp;
+                          </label>
+
+                        </td>
+                      </tr>
+
+
+                      <tr>
+                        <td class="mdl-data-table__cell--non-numeric">
+                          <p>
+                            <b>Full Name</b> @ Company Name
+                          </p>
+                        </td>
+                        <td>
+                          <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="c2-1">
+                            <input type="radio" id="c2-1" class="mdl-radio__button" name="c2" value="1" checked />&nbsp;
+                          </label>
+                        </td>
+                        <td>
+                          <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="c2-2">
+                            <input type="radio" id="c2-2" class="mdl-radio__button" name="c2" value="2"  />&nbsp;
+                          </label>
+                        </td>
+                        <td>
+                          <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="c2-3">
+                            <input type="radio" id="c2-3" class="mdl-radio__button" name="c2" value="3"  />&nbsp;
+                          </label>
+                        </td>
+                      </tr>
+
+
+
+                      <tr>
+                        <td class="mdl-data-table__cell--non-numeric">
+                          <p>
+                            <b>Full Name</b> @ Company Name
+                          </p>
+                        </td>
+                        <td>
+                          <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="c3-1">
+                            <input type="radio" id="c3-1" class="mdl-radio__button" name="c3" value="1" checked />&nbsp;
+                          </label>
+                        </td>
+                        <td>
+                          <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="c3-2">
+                            <input type="radio" id="c3-2" class="mdl-radio__button" name="c3" value="2"  />&nbsp;
+                          </label>
+                        </td>
+                        <td>
+                          <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="c3-3">
+                            <input type="radio" id="c3-3" class="mdl-radio__button" name="c3" value="3"  />&nbsp;
+                          </label>
+                        </td>
+                      </tr>
+
+
+
+
+                    </tbody>
+                  </table>
+
+                </div>
+
+
+            <div class="mdl-card__title mdl-card--expand">
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <div class="mdl-layout-spacer"></div>
+              <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect">
+                Save
+              </button>
+
+            </div>
+
+
+
+          </div>
+
+        </div>
+      </main>
+
+
+      <footer class="mdl-mini-footer">
+        <div class="mdl-mini-footer--left-section">
+          <p>Created at <a href="http://16iacc.org" target="_blank">16IACC</a></p>
+        </div>
+        <div class="mdl-mini-footer--right-section">
+          <button class="mdl-mini-footer--social-btn social-btn__share">
+            <i class="material-icons" role="presentation">share</i>
+            <span class="visuallyhidden">share</span>
+          </button>
+        </div>
+      </footer>
+
+      <div class="mdl-layout__obfuscator"></div>
+
+
+
+    </div>
+
+
+  </body>
+</html>
