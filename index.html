@@ -59,11 +59,14 @@
 
               <div class="mdl-grid">
 
+
+
                 <div class="politician-photo mdl-cell mdl-cell--5-col mdl-card__supporting-text">
                 </div>
                 <div class="politician-description mdl-cell mdl-cell--7-col mdl-card__supporting-text">
-                  <h3 class="politician_name">[NAME]</h3>
-                  <p class="politician_summary">[SUMMARY]</p>
+                  <div class="mdl-spinner mdl-spinner--single-color mdl-js-spinner is-active"></div>
+                  <h3 class="politician_name"></h3>
+                  <p class="politician_summary"></p>
                 </div>
               </div>
 
@@ -93,12 +96,12 @@
 
             <div class="matches">
 
+<div class="mdl-spinner mdl-spinner--single-color mdl-js-spinner is-active"></div>
+
                   <h5 class="mdl-badge">
                     <!--<span class="mdl-badge companies_count" data-badge="3">-->
-
-                      Help us find matches for <span class="politician_name">[NAME]</span> </span>
+                      Help us find matches for <span class="politician_name">...</span> </span>
                   </h5>
-
 
                   <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
                     <thead>
@@ -229,7 +232,7 @@
 
                   <div class="mdl-card__actions">
                     <div class="mdl-layout-spacer"></div>
-                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent mdl-js-ripple-effect">
+                    <button id="btn_savematch" class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent mdl-js-ripple-effect">
                       Save Match
                     </button>
 

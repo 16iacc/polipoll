@@ -55,12 +55,21 @@ function showPoliticianData() {
 
   for(var company_id in politician.companies){
     console.log(company_id);
+    //.matches table tbody
+    //TODO: fullfill the table of matches
 
-    
   }
+  $(".matches").show();
+  $(".mdl-spinner").hide();
 }
 
 function loadPolitician(id) {
+  $(".mdl-spinner").fadeIn();
+  $(".politician_name").text("");
+  $(".politician_summary").text("");
+  $(".politician-photo").css("background-image", "");
+  $(".matches").hide();
+
   //politician_id = politicians[randomize];
   politician_id = id;
   console.log("POLITICIAN LOADED!", politician_id);
@@ -93,6 +102,13 @@ $(document).ready(function(){
     e.preventDefault();
     randomizePolitician();
   });
+
+
+  $("#btn_savematch").click(function(e){
+    e.preventDefault();
+
+  });
+
   console.log("OK");
 
   fbPP = new Firebase(FIREBASE_ROOT);
