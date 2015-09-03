@@ -4,17 +4,21 @@ var SINAR_API = "https://sinar-malaysia.popit.mysociety.org/api/v0.1/persons/";
 
 
 var politicians = [];
-var politician;
+var politician, politician_id;
 var fbP;
 
 
-//TODO: calling loadPolitianData more than 1 time :'(
+//TODO: calling loadPoliticianData more than 1 time :'(
 
 
+window.onhashchange = function()
+{
+  console.log("hash changed", location.hash);
+  loadPolitician(location.hash.substring(1));
+}
 
-
-function loadPolitianData(politician_id) {
-  console.log("loadPolitianData", politician_id);
+function loadPoliticianData(politician_id) {
+  console.log("loadPoliticianData", politician_id);
   //53659684f1eab6270da6c8fc
   $.getJSON(SINAR_API + politician_id, function(e){
     console.log(e);
@@ -33,37 +37,48 @@ function loadPolitianData(politician_id) {
 
     fbPP.child("politician/" + politician_id).once("value", function(snapshot){
       politician = snapshot.val();
+      politician_id = snapshot.key();
+      console.log("test", politician_id);
       showPoliticianData(politician);
     });
 
   });
 }
 
-function showPoliticianData(politician) {
-  console.log("SET POLITICIAN", politician);
+function showPoliticianData() {
+  console.log("showPoliticianData", politician);
   $(".politician_name").text(politician.politician_name);
   $(".politician_summary").text(politician.summary);
 
   if (politician.image) {
     $(".politician-photo").css("background-image", "url("+politician.image+")");
+  } else {
+    $(".politician-photo").css("background-image", "");
   }
+}
+
+function loadPolitician(id) {
+  //politician_id = politicians[randomize];
+  politician_id = id;
+  console.log("POLITICIAN LOADED!", politician_id);
+
+  fbPP.child("politician/" + politician_id).once("value", function(snapshot){
+    politician = snapshot.val();
+
+    if (!politician.checked_person) {
+      loadPoliticianData(politician_id);
+    } else {
+      showPoliticianData();
+    }
+  });
+
 }
 
 function randomizePolitician() {
   var randomize = Math.floor(politicians.length * Math.random());
-  console.log("POLITICIAN LOADED!", politicians[randomize]);
+  //loadPolitician();
+  location.hash = politicians[randomize]; // get the clicked link id
 
-  fbPP.child("politician/" + politicians[randomize]).once("value", function(snapshot){
-    politician = snapshot.val();
-
-    if (!politician.checked_person) {
-      loadPolitianData(politicians[randomize]);
-
-    } else {
-
-      showPoliticianData(politician);
-    }
-  });
 }
 
 
@@ -80,14 +95,22 @@ $(document).ready(function(){
   console.log("OK");
 
   fbPP = new Firebase(FIREBASE_ROOT);
+
+
   fbPP.child("politicians").once("value", function(snapshot) {
     console.log("POLITICIANS LOADED!", politicians.length);
     politicians = snapshot.val();
-    randomizePolitician();
+    if (location.hash) {
 
+      loadPolitician(location.hash.substring(1));
+
+    } else {
+      randomizePolitician();
+    }
   }, function (errorObject) {
     console.log("The read failed: " + errorObject.code);
   });
+
 
 });
 
