@@ -64,11 +64,11 @@
 }
 
 
-.votes {
+.vote {
   margin-top: 20px;
   margin-bottom: 40px;
 }
-.votes > .mdl-card__actions {
+.vote > .mdl-card__actions {
   display: flex;
   box-sizing:border-box;
   align-items: center;

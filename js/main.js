@@ -58,8 +58,21 @@ function showPoliticianData() {
     //.matches table tbody
     //TODO: fullfill the table of matches
 
+    var certainty = (100.0 * parseFloat(politician.companies[company_id].certainty)).toPrecision(4);
+    var company_name = politician.companies[company_id].company_name;
+    var director_name = politician.companies[company_id].director_name;
+    var project_count = politician.companies[company_id].project_count;
+    var project_sum = politician.companies[company_id].project_sum;
+    var projects = politician.companies[company_id].projects;
+
+    $(".certainty").text(certainty);
+    $(".company_name").text(company_name);
+    $(".director_name").text(director_name);
+    $(".project_count").text(project_count);
+    $(".project_sum").text(project_sum);
+
   }
-  $(".matches").show();
+  $(".matches, .vote").show();
   $(".mdl-spinner").hide();
 }
 
@@ -68,7 +81,7 @@ function loadPolitician(id) {
   $(".politician_name").text("");
   $(".politician_summary").text("");
   $(".politician-photo").css("background-image", "");
-  $(".matches").hide();
+  $(".matches, .vote").hide();
 
   //politician_id = politicians[randomize];
   politician_id = id;
@@ -97,6 +110,8 @@ function randomizePolitician() {
 
 
 $(document).ready(function(){
+  $(".mdl-spinner").fadeIn();
+  $(".matches, .vote").hide();
 
   $("#btn_play").click(function(e){
     e.preventDefault();
@@ -106,13 +121,12 @@ $(document).ready(function(){
 
   $("#btn_savematch").click(function(e){
     e.preventDefault();
-
+    //TODO: save data in Firebase
   });
 
   console.log("OK");
 
   fbPP = new Firebase(FIREBASE_ROOT);
-
 
   fbPP.child("politicians").once("value", function(snapshot) {
     console.log("POLITICIANS LOADED!", politicians.length);
