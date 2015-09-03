@@ -74,6 +74,7 @@ function loadPolitician(id) {
 function randomizePolitician() {
   var randomize = Math.floor(politicians.length * Math.random());
   //loadPolitician();
+  console.log("randomize politician...", randomize);
   location.hash = politicians[randomize]; // get the clicked link id
 }
 
