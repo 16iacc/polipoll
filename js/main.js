@@ -59,7 +59,7 @@ function showPoliticianData() {
     //TODO: fullfill the table of matches
 
   }
-  $(".matches").show();
+  $(".matches, .vote").show();
   $(".mdl-spinner").hide();
 }
 
@@ -68,7 +68,7 @@ function loadPolitician(id) {
   $(".politician_name").text("");
   $(".politician_summary").text("");
   $(".politician-photo").css("background-image", "");
-  $(".matches").hide();
+  $(".matches, .vote").hide();
 
   //politician_id = politicians[randomize];
   politician_id = id;
@@ -97,6 +97,8 @@ function randomizePolitician() {
 
 
 $(document).ready(function(){
+  $(".mdl-spinner").fadeIn();
+  $(".matches, .vote").hide();
 
   $("#btn_play").click(function(e){
     e.preventDefault();
@@ -106,13 +108,12 @@ $(document).ready(function(){
 
   $("#btn_savematch").click(function(e){
     e.preventDefault();
-
+    //TODO: save data in Firebase
   });
 
   console.log("OK");
 
   fbPP = new Firebase(FIREBASE_ROOT);
-
 
   fbPP.child("politicians").once("value", function(snapshot) {
     console.log("POLITICIANS LOADED!", politicians.length);
