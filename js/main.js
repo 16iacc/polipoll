@@ -8,9 +8,6 @@ var politician, politician_id;
 var fbP;
 
 
-//TODO: calling loadPoliticianData more than 1 time :'(
-
-
 window.onhashchange = function()
 {
   console.log("hash changed", location.hash);
@@ -78,10 +75,7 @@ function randomizePolitician() {
   var randomize = Math.floor(politicians.length * Math.random());
   //loadPolitician();
   location.hash = politicians[randomize]; // get the clicked link id
-
 }
-
-
 
 
 
@@ -101,9 +95,7 @@ $(document).ready(function(){
     console.log("POLITICIANS LOADED!", politicians.length);
     politicians = snapshot.val();
     if (location.hash) {
-
       loadPolitician(location.hash.substring(1));
-
     } else {
       randomizePolitician();
     }
@@ -111,8 +103,11 @@ $(document).ready(function(){
     console.log("The read failed: " + errorObject.code);
   });
 
-
 });
+
+
+
+
 
 /*
 
