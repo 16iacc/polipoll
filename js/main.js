@@ -7,13 +7,16 @@ var politicians = [];
 var fbP;
 
 
+//TODO: calling loadPolitianData more than 1 time :'(
+
+
+
+
 function loadPolitianData(politician_id) {
-  console.log("load PICTURE", politician_id);
+  console.log("loadPolitianData", politician_id);
   //53659684f1eab6270da6c8fc
   $.getJSON(SINAR_API + politician_id, function(e){
     console.log(e);
-
-
 
     fbPP.child("politician/" + politician_id + "/checked_person").set(true);
     fbPP.child("politician/" + politician_id + "/image").set(e.result.image || null);
@@ -27,12 +30,22 @@ function loadPolitianData(politician_id) {
 
     console.log("SAVED ", politician_id);
 
-    if (e.result && e.result.image) {
-    } else {
-      //console.log("NO IMAGE FOR", politician_id);
-    }
+    fbPP.child("politician/" + politician_id).once("value", function(snapshot){
+      politician = snapshot.val();
+      showPoliticianData(politician);
+    });
 
   });
+}
+
+function showPoliticianData(politician) {
+  console.log("SET POLITICIAN", politician);
+  $(".politician_name").text(politician.politician_name);
+  $(".politician_summary").text(politician.summary);
+
+  if (politician.image) {
+    $(".politician-photo").css("background-image", "url("+politician.image+")");
+  }
 }
 
 var politician;
@@ -48,7 +61,7 @@ $(document).ready(function(){
     var randomize = Math.floor(snapshot.numChildren() * Math.random());
     console.log("POLITICIANS LOADED!", snapshot.numChildren(), randomize, politicians[randomize]);
 
-    fbPP.child("politician/" + politicians[randomize]).on("value", function(snapshot){
+    fbPP.child("politician/" + politicians[randomize]).once("value", function(snapshot){
       politician = snapshot.val();
 
       if (!politician.checked_person) {
@@ -56,11 +69,7 @@ $(document).ready(function(){
 
       } else {
 
-        console.log("SET POLITICIAN", politician);
-        $(".politician_name").text(politician.politician_name);
-        $(".politician_summary").text(politician.summary);
-
-
+        showPoliticianData(politician);
       }
     });
 
