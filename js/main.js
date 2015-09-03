@@ -52,6 +52,12 @@ function showPoliticianData() {
   } else {
     $(".politician-photo").css("background-image", "");
   }
+
+  for(var company_id in politician.companies){
+    console.log(company_id);
+
+    
+  }
 }
 
 function loadPolitician(id) {
