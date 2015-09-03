@@ -55,7 +55,7 @@
 
 }
 
-.matches {
+.matches, .projects, .vote {
   width: 100%;
 }
 
@@ -64,7 +64,11 @@
 }
 
 
-.matches > .mdl-card__actions {
+.votes {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.votes > .mdl-card__actions {
   display: flex;
   box-sizing:border-box;
   align-items: center;
