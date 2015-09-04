@@ -187,7 +187,7 @@ function showPoliticianData() {
     <td>' + project.company + '</td>\
     <td>' + project.tajuk + '</td>\
     <td>' + project.tarikh_anugerah + '</td>\
-    <td>' + project.nilai + '</td>\
+    <td>' + numberWithCommas(project.nilai) + '</td>\
     </tr>\
     ');
   });
