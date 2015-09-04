@@ -8,13 +8,11 @@ var makeMap = function(elID, data) {
       zoom: 8,
       maxZoom: 10
   });
-  console.log("Added map!");
   layer_MapBox.addTo(map);
   
   var latLongs = []
   
   $(data).each(function(i, l) {
-    console.log("a location", l);
     var popupContent = getPopupContent(l);
     L.marker([l.lat, l.long]).addTo(map)
         .bindPopup(popupContent)
@@ -23,8 +21,6 @@ var makeMap = function(elID, data) {
   });
   
   map.fitBounds(new L.LatLngBounds(latLongs));
-  
-  console.log("Added data!")
   
   map.scrollWheelZoom.disable();
 
