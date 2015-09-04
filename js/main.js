@@ -184,10 +184,19 @@ function showPoliticianData() {
   $(politician.projects).each(function(i, project) {
     $('.company-detail').append('\
     <tr>\
-    <td>' + project.company + '</td>\
-    <td>' + project.tajuk + '</td>\
-    <td>' + project.tarikh_anugerah + '</td>\
+    <td class="mdl-data-table__cell--non-numeric">' + project.company + '</td>\
+    <td class="mdl-data-table__cell--non-numeric">' + project.tajuk + '</td>\
+    <td class="mdl-data-table__cell--non-numeric">' + project.tarikh_anugerah + '</td>\
     <td>' + numberWithCommas(project.nilai) + '</td>\
+    </tr>\
+    ');
+  });
+
+  $(politician.memberships).each(function(i, membership) {
+    $('.membership-detail').append('\
+    <tr>\
+    <td class="mdl-data-table__cell--non-numeric">' + membership.role + '</td>\
+    <td class="mdl-data-table__cell--non-numeric">' + membership.start_date + '</td>\
     </tr>\
     ');
   });
