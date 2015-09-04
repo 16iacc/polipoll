@@ -178,6 +178,8 @@ function showPoliticianData() {
     $(".politician-photo").css("background-image", "");
   }
 
+  $(".companies tr").not(".model").empty();
+
   for(var idx in politician.contractors){
     //use cont_id as primary_key
     var element = $(".companies .model").clone();
