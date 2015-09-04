@@ -64,7 +64,7 @@
                 <div class="politician-photo mdl-cell mdl-cell--5-col mdl-card__supporting-text">
                 </div>
                 <div class="politician-description mdl-cell mdl-cell--7-col mdl-card__supporting-text">
-                  <div class="mdl-spinner mdl-spinner--single-color mdl-js-spinner is-active"></div>
+                  <div class="loading mdl-spinner mdl-spinner--single-color mdl-js-spinner is-active"></div>
                   <h3 class="politician_name"></h3>
                   <p class="politician_summary"></p>
                 </div>
@@ -119,27 +119,40 @@
                             Total Amount: $ <b class="project_sum"></b>
                           </p>
                         </td>
-                        <td class="mdl-data-table__cell--non-numeric votes">
+                        <td class="votes mdl-data-table__cell--non-numeric">
 
+                          <div class="buttons" style="">
+                            <button class="chart_green mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                               Confirm <span class="icon material-icons">ic_thumb_up</span>
+                            </button><br/>
 
-                          <button id="btn_savematch" class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent mdl-js-ripple-effect">
-                             Confirm <span class="icon material-icons">ic_thumb_up</span>
-                          </button><br/>
+                            <button class="chart_yellow mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                               Don't know <span class="icon material-icons">ic_help_outline</span>
+                            </button><br/>
 
-                          <button id="btn_savematch" class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent mdl-js-ripple-effect">
-                             Don't know <span class="icon material-icons">ic_help_outline</span>
-                          </button><br/>
+                            <button class="chart_red mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                               Not him/her <span class="icon material-icons">ic_thumb_down</span>
+                            </button>
 
-                          <button id="btn_savematch" class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent mdl-js-ripple-effect">
-                             Not him/her <span class="icon material-icons">ic_thumb_down</span>
-                          </button>
+                          </div>
+                          <div class="waiting" style="display:none;">
+                            <div class="mdl-spinner mdl-spinner--single-color mdl-js-spinner is-active"></div>
 
+                          </div>
+
+                          <div class="result" style="display:block;">
+
+                            <div class="chart"><span class="chart_green"></span><span class="chart_yellow"></span><span class="chart_red"></span></div>
+
+                            <p>
+                              Confirmed: <span class="right_perc">-</span><br/>
+                              Don't know: <span class="dontknow_perc">-</span> <br/>
+                              Not him/her: <span class="wrong_perc">-</span>
+                            </p>
+
+                          </div>
 
                         </td>
-                        <td class="mdl-data-table__cell--non-numeric result">
-
-                        </td>
-
                       </tr>
 
                     </tbody>

@@ -75,17 +75,46 @@
   padding: 8px 0;
 }
 
-
 .companies .votes {
-  width: 150px;
+  width: 200px;
 }
+
 .companies button {
-  width: 100%;
+  width: 200px;
   margin-bottom: 10px;
 }
-.companies .result {
-  display: none;
+
+
+.companies .result p {
+  font-size: 11px;
+  line-height: 18px;
+  margin-top: 10px;
 }
+
+.chart {
+  height: 30px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #ededed
+}
+.chart span {
+    display: inline-block;
+    height:100%;
+    margin: 0;
+    padding: 0;
+}
+.chart_green {
+    background-color: rgb(60, 165,58); !important
+}
+.chart_yellow {
+    background-color: rgb(254,236,22); !important
+}
+.chart_red {
+    background-color: rgb(238,43,41); !important
+}
+
+
 
 
 
