@@ -216,11 +216,7 @@ function showPoliticianData() {
   });
   console.log("length of locations", locations.length)
   console.log("locations", locations)
-  if (locations.length > 0) {
-    makeMap("companyLocations", locations);
-  } else {
-    $("#companyLocations").text("No locations available");
-  }
+  makeMap("companyLocations", locations);
   $(".companies tr").not(".model").remove();
 
   for(var idx in politician.contractors){
