@@ -173,6 +173,33 @@ function showPoliticianData() {
     $(".politician-photo").css("background-image", "");
   }
 
+  $(politician.projects).each(function(i, project) {
+    $('.company-detail').append('\
+    <tr>\
+    <td>' + project.company + '</td>\
+    <td>' + project.tajuk + '</td>\
+    <td>' + project.tarikh_anugerah + '</td>\
+    <td>' + project.nilai + '</td>\
+    </tr>\
+    ');
+  });
+
+  var locations = []
+  $(politician.contractors).map(function(i, k) {
+    if ((k.location == undefined) || (k.location.Lat == "") || (k.location.Lat == null)) {
+      return;
+    }
+    data = {
+      'lat': parseFloat(k.location.Lat),
+      'long': parseFloat(k.location.Long),
+      'location_name': k.location.Name,
+      'company_name': k.company
+    }
+    locations.push(data);
+  });
+
+  makeMap("companyLocations", locations);
+
   for(var idx in politician.contractors){
     //use cont_id as primary_key
     var element = $(".companies .model").clone();
