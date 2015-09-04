@@ -165,6 +165,9 @@ function showPoliticianData() {
 }
 
 
+function numberWithCommas(x) {
+  return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
 
 
 function showPoliticianData() {
@@ -199,7 +202,7 @@ function showPoliticianData() {
     console.log(company_name, director_name, speciality);
 
     var num_projects = contractor.num_projects;
-    var sum_projects_value = contractor.sum_projects_value;
+    var sum_projects_value = numberWithCommas(contractor.sum_projects_value);
 
     //$(".certainty").text(certainty);
     $(element).data("company_id", company_id);
