@@ -1,13 +1,15 @@
 $(document).ready(function(){
   $.getJSON('data/person.json', function(data) {
-    console.log(data)
+    function numberWithCommas(x) {
+      return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    }
     for(i=0;i<data.length;i++) {
 
       var tr = $('<tr></tr>');
-      var poliname = $('<td></td>').addClass('mdl-data-table').text(data[i].politician_name);
-      var dirname = $('<td></td>').addClass('mdl-data-table').text(data[i].director_name);
+      var poliname = $('<td></td>').addClass('mdl-data-table').append('<a href="politician/#' + data[i].slug + '">' + data[i].politician_name + '</a>');
+      var dirname = $('<td></td>').addClass('mdl-data-table').append('<a href="politician/#' + data[i].slug + '">' + data[i].director_name + '</a>');
       var numcomp = $('<td></td>').addClass('mdl-data-table').text(data[i].num_projects);
-      var totaward = $('<td></td>').addClass('mdl-data-table').text(data[i].sum_projects_value);
+      var totaward = $('<td></td>').addClass('mdl-data-table').text(numberWithCommas(data[i].sum_projects_value));
       tr.append(poliname);
       tr.append(dirname);
       tr.append(numcomp);
