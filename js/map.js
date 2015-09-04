@@ -1,10 +1,14 @@
+var map;
 var makeMap = function(elID, data) {
+  if (map != undefined) {
+    map.remove();
+  }
+
   layer_MapBox = new L.tileLayer(
   'https://d.tiles.mapbox.com/v3/markbrough.n3kod47p/{z}/{x}/{y}.png',{
       maxZoom: 18, attribution: 'MapBox Streets'
   })
-  var map = new L.Map(elID, {
-      center: new L.LatLng(data[0].lat, data[0].long),
+  map = new L.Map(elID, {
       zoom: 8,
       maxZoom: 10
   });
