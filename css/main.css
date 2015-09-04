@@ -76,6 +76,18 @@
 }
 
 
+.companies .votes {
+  width: 150px;
+}
+.companies button {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.companies .result {
+  display: none;
+}
+
+
 
 .header-ribbon {
   width: 100%;
