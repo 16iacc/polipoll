@@ -9,6 +9,17 @@
   z-index: 900;
 }
 
+.nowrap {
+  white-space: nowrap;
+}
+
+
+
+.mdl-layout-title a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .politician {
 
 }
@@ -17,6 +28,7 @@
 }
 
 .politician-photo {
+  background-color: #eeeeee;
   padding: 0;
   margin: 0;
   min-height: 450px;

@@ -181,6 +181,42 @@ function showPoliticianData() {
     $(".politician-photo").css("background-image", "");
   }
 
+  $(politician.projects).each(function(i, project) {
+    $('.company-detail').append('\
+    <tr>\
+    <td class="mdl-data-table__cell--non-numeric">' + project.company + '</td>\
+    <td class="mdl-data-table__cell--non-numeric">' + project.tajuk + '</td>\
+    <td class="mdl-data-table__cell--non-numeric nowrap">' + project.tarikh_anugerah + '</td>\
+    <td>' + numberWithCommas(project.nilai) + '</td>\
+    </tr>\
+    ');
+  });
+
+  $(politician.memberships).each(function(i, membership) {
+    $('.membership-detail').append('\
+    <tr>\
+    <td class="mdl-data-table__cell--non-numeric">' + membership.role + '</td>\
+    <td class="mdl-data-table__cell--non-numeric nowrap">' + membership.start_date + '</td>\
+    </tr>\
+    ');
+  });
+
+  var locations = []
+  $(politician.contractors).map(function(i, k) {
+    if ((k.location == undefined) || (k.location.Lat == "") || (k.location.Lat == null)) {
+      return;
+    }
+    data = {
+      'lat': parseFloat(k.location.Lat),
+      'long': parseFloat(k.location.Long),
+      'location_name': k.location.Name,
+      'company_name': k.company
+    }
+    locations.push(data);
+  });
+  console.log("length of locations", locations.length)
+  console.log("locations", locations)
+  makeMap("companyLocations", locations);
   $(".companies tr").not(".model").remove();
 
   for(var idx in politician.contractors){

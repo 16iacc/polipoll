@@ -6,8 +6,8 @@ $(document).ready(function(){
     for(i=0;i<data.length;i++) {
 
       var tr = $('<tr></tr>');
-      var poliname = $('<td></td>').addClass('mdl-data-table').append('<a href="#' + data[i].slug + '">' + data[i].politician_name + '</a>');
-      var dirname = $('<td></td>').addClass('mdl-data-table').append('<a href="#' + data[i].slug + '">' + data[i].director_name + '</a>');
+      var poliname = $('<td></td>').addClass('mdl-data-table').append('<a href="../#' + data[i].slug + '">' + data[i].politician_name + '</a>');
+      var dirname = $('<td></td>').addClass('mdl-data-table').append('<a href="../#' + data[i].slug + '">' + data[i].director_name + '</a>');
       var numcomp = $('<td></td>').addClass('mdl-data-table').text(data[i].num_projects);
       var totaward = $('<td></td>').addClass('mdl-data-table').text(numberWithCommas(data[i].sum_projects_value));
       tr.append(poliname);
