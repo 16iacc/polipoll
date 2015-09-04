@@ -178,3 +178,20 @@
   color: #9e9e9e;
   background-color: transparent;
 }
+
+/* Datatable */
+
+.dataTables_wrapper {
+  width: 100%;
+}
+
+table.dataTable {
+  margin-top: 50px;
+}
+.mdl-data-table th {
+  text-align: center;
+}
+
+.mdl-data-table td {
+  text-align: center;
+}

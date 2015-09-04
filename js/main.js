@@ -112,6 +112,15 @@ function randomizePolitician() {
 $(document).ready(function(){
   $(".mdl-spinner").fadeIn();
   $(".matches, .vote").hide();
+  $('table.mdl-data-table').DataTable({
+    columnDefs: [ {
+            targets: [ 0 ],
+            orderData: [ 0, 1 ]
+        }, {
+            targets: [ 1 ],
+            orderData: [ 1, 0 ]
+        } ]
+  });
 
   $("#btn_play").click(function(e){
     e.preventDefault();
@@ -140,6 +149,9 @@ $(document).ready(function(){
     console.log("The read failed: " + errorObject.code);
   });
 
+
+
+  console.log("OK");
 });
 
 
