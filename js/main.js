@@ -33,9 +33,14 @@ function showResult(company_id) {
     var yellow_perc = (votes.yellow || 0) / total * 100;
     var red_perc = (votes.red || 0) / total * 100;
 
-    $(".companies .c_"+company_id+" .chart_green").css("width", green_perc + "%");
-    $(".companies .c_"+company_id+" .chart_yellow").css("width", yellow_perc + "%");
-    $(".companies .c_"+company_id+" .chart_red").css("width", red_perc + "%");
+    $(".companies .c_"+company_id+" .chart .green").css("width", green_perc + "%");
+    $(".companies .c_"+company_id+" .chart .yellow").css("width", yellow_perc + "%");
+    $(".companies .c_"+company_id+" .chart .red").css("width", red_perc + "%");
+
+    $(".companies .c_"+company_id+" .green_perc").text(green_perc.toPrecision(4) + "%");
+    $(".companies .c_"+company_id+" .yellow_perc").text(yellow_perc.toPrecision(4) + "%");
+    $(".companies .c_"+company_id+" .red_perc").text(red_perc.toPrecision(4) + "%");
+
 
   });
 

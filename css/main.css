@@ -107,13 +107,13 @@
     margin: 0;
     padding: 0;
 }
-.chart_green {
+.green {
     background-color: rgb(60, 165,58); !important
 }
-.chart_yellow {
+.yellow {
     background-color: rgb(254,236,22); !important
 }
-.chart_red {
+.red {
     background-color: rgb(238,43,41); !important
 }
 
