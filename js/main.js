@@ -186,7 +186,7 @@ function showPoliticianData() {
     <tr>\
     <td class="mdl-data-table__cell--non-numeric">' + project.company + '</td>\
     <td class="mdl-data-table__cell--non-numeric">' + project.tajuk + '</td>\
-    <td class="mdl-data-table__cell--non-numeric">' + project.tarikh_anugerah + '</td>\
+    <td class="mdl-data-table__cell--non-numeric nowrap">' + project.tarikh_anugerah + '</td>\
     <td>' + numberWithCommas(project.nilai) + '</td>\
     </tr>\
     ');
@@ -196,7 +196,7 @@ function showPoliticianData() {
     $('.membership-detail').append('\
     <tr>\
     <td class="mdl-data-table__cell--non-numeric">' + membership.role + '</td>\
-    <td class="mdl-data-table__cell--non-numeric">' + membership.start_date + '</td>\
+    <td class="mdl-data-table__cell--non-numeric nowrap">' + membership.start_date + '</td>\
     </tr>\
     ');
   });
