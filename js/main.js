@@ -214,8 +214,13 @@ function showPoliticianData() {
     }
     locations.push(data);
   });
-
-  makeMap("companyLocations", locations);
+  console.log("length of locations", locations.length)
+  console.log("locations", locations)
+  if (locations.length > 0) {
+    makeMap("companyLocations", locations);
+  } else {
+    $("#companyLocations").text("No locations available");
+  }
   $(".companies tr").not(".model").remove();
 
   for(var idx in politician.contractors){
