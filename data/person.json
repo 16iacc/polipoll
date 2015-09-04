@@ -1,1 +1,1318 @@
-[{"num_projects": 303, "sum_projects_value": 98008275.0, "politician_name": "Ng Choon Koon", "slug": "ng-choon-koon", "director_name": "NG CHOON KOON"}, {"num_projects": 91, "sum_projects_value": 23181694.0, "politician_name": "Tan Shu Tee", "slug": "tan-shu-tee", "director_name": "TAN SHU TEE"}, {"num_projects": 85, "sum_projects_value": 1136587079.0, "politician_name": "Mohd Yusof Bin Din", "slug": "mohd-yusof-bin-din", "director_name": "MOHD YUSOF BIN DIN"}, {"num_projects": 72, "sum_projects_value": 11972256, "politician_name": "Chan Chin Chee", "slug": "chan-chin-chee", "director_name": "CHAN CHIN CHEE"}, {"num_projects": 67, "sum_projects_value": 1048560449.0, "politician_name": "Hee Loy Sian", "slug": "hee-loy-sian", "director_name": "HEE LOY SIAN"}, {"num_projects": 64, "sum_projects_value": 4039819748, "politician_name": "Zakaria Bin Abdul Hamid", "slug": "zakaria-bin-abdul-hamid", "director_name": "ZAKARIA BIN ABDUL HAMID"}, {"num_projects": 51, "sum_projects_value": 102461906, "politician_name": "Tan Cheng Chai", "slug": "tan-cheng-chai", "director_name": "TAN CHENG CHAI"}, {"num_projects": 44, "sum_projects_value": 220946930, "politician_name": "Abdullah Bin Ya'Kub", "slug": "abdullah-bin-ya-kub", "director_name": "ABDULLAH BIN YA'KUB"}, {"num_projects": 44, "sum_projects_value": 220946930, "politician_name": "Hanifa Bin Ahmad", "slug": "hanifa-bin-ahmad", "director_name": "HANIFA BIN AHMAD"}, {"num_projects": 44, "sum_projects_value": 49571122.0, "politician_name": "Ismail Bin Salleh", "slug": "ismail-bin-salleh", "director_name": "ISMAIL BIN SALLEH"}, {"num_projects": 42, "sum_projects_value": 322552509, "politician_name": "Ahmad Bin Saad @ Yahaya", "slug": "ahmad-bin-saad-yahaya", "director_name": "AHMAD BIN SAAD @ YAHAYA"}, {"num_projects": 40, "sum_projects_value": 370643814.0, "politician_name": "Azmi Bin Ahmad", "slug": "azmi-bin-ahmad", "director_name": "AZMI BIN AHMAD"}, {"num_projects": 38, "sum_projects_value": 1377518610.0, "politician_name": "Foo Chu Pak", "slug": "foo-chu-pak", "director_name": "FOO CHU PAK"}, {"num_projects": 35, "sum_projects_value": 143833785.0, "politician_name": "Ghazali Bin Ismail", "slug": "ghazali-bin-ismail", "director_name": "GHAZALI BIN ISMAIL"}, {"num_projects": 33, "sum_projects_value": 77807032, "politician_name": "Roslan Bin Ismail", "slug": "roslan-bin-ismail", "director_name": "ROSLAN BIN ISMAIL"}, {"num_projects": 30, "sum_projects_value": 24833864.0, "politician_name": "Ayub Bin Rahmat", "slug": "ayub-bin-rahmat", "director_name": "AYUB BIN RAHMAT"}, {"num_projects": 30, "sum_projects_value": 103550368, "politician_name": "Ma Kok Ben", "slug": "ma-kok-ben", "director_name": "MA KOK BEN"}, {"num_projects": 25, "sum_projects_value": 188157422, "politician_name": "Abdul Rahman Bin Mohamad", "slug": "abdul-rahman-bin-mohamad", "director_name": "ABDUL RAHMAN BIN MOHAMAD"}, {"num_projects": 25, "sum_projects_value": 64957609.0, "politician_name": "Ahmad Bin Ibrahim", "slug": "ahmad-bin-ibrahim", "director_name": "AHMAD BIN IBRAHIM"}, {"num_projects": 25, "sum_projects_value": 73639117.0, "politician_name": "Ramli Bin Ismail", "slug": "ramli-bin-ismail", "director_name": "RAMLI BIN ISMAIL"}, {"num_projects": 23, "sum_projects_value": 726793823.0, "politician_name": "Baderisham Bin Jolly", "slug": "baderisham-bin-jolly", "director_name": "BADERISHAM BIN JOLLY"}, {"num_projects": 23, "sum_projects_value": 33062526, "politician_name": "Tan Ah Eng", "slug": "tan-ah-eng", "director_name": "TAN AH ENG"}, {"num_projects": 21, "sum_projects_value": 95631190, "politician_name": "Abdul Rahim Bin Pandak Kamarudin", "slug": "abdul-rahim-bin-pandak-kamarudin", "director_name": "ABDUL RAHIM BIN PANDAK KAMARUDIN"}, {"num_projects": 20, "sum_projects_value": 27366557, "politician_name": "Fadzil Bin Baharum", "slug": "fadzil-bin-baharum", "director_name": "FADZIL BIN BAHARUM"}, {"num_projects": 20, "sum_projects_value": 51947812, "politician_name": "Mohamad Bin Ismail", "slug": "mohamad-bin-ismail", "director_name": "MOHAMAD BIN ISMAIL"}, {"num_projects": 20, "sum_projects_value": 1003728286, "politician_name": "Roslan Bin Zainal", "slug": "roslan-bin-zainal", "director_name": "ROSLAN BIN ZAINAL"}, {"num_projects": 20, "sum_projects_value": 49690247, "politician_name": "Tan Hock Huat", "slug": "tan-hock-huat", "director_name": "TAN HOCK HUAT"}, {"num_projects": 19, "sum_projects_value": 2667555, "politician_name": "Ahmad Bin Abdullah", "slug": "ahmad-bin-abdullah", "director_name": "AHMAD BIN ABDULLAH"}, {"num_projects": 18, "sum_projects_value": 386234648.0, "politician_name": "Ibrahim Bin Ismail", "slug": "ibrahim-bin-ismail", "director_name": "IBRAHIM BIN ISMAIL"}, {"num_projects": 18, "sum_projects_value": 847585570, "politician_name": "Limus Bin Jury", "slug": "limus-bin-jury", "director_name": "LIMUS BIN JURY"}, {"num_projects": 18, "sum_projects_value": 2723980, "politician_name": "Wong Hock Aun", "slug": "wong-hock-aun", "director_name": "WONG HOCK AUN"}, {"num_projects": 17, "sum_projects_value": 187404193, "politician_name": "Amirudin Bin Yusof", "slug": "amirudin-bin-yusof", "director_name": "AMIRUDIN BIN YUSOF"}, {"num_projects": 16, "sum_projects_value": 504162900, "politician_name": "Ramlee Bin Marahaban", "slug": "ramlee-bin-marahaban", "director_name": "RAMLEE BIN MARAHABAN"}, {"num_projects": 16, "sum_projects_value": 103848192, "politician_name": "Shariful Azhar Bin Othman", "slug": "shariful-azhar-bin-othman", "director_name": "SHARIFUL AZHAR BIN OTHMAN"}, {"num_projects": 15, "sum_projects_value": 10238719, "politician_name": "Tengku Zulpuri Shah Bin Raja Puji", "slug": "tengku-zulpuri-shah-bin-raja-puji", "director_name": "TENGKU ZULPURI SHAH BIN RAJA PUJI"}, {"num_projects": 14, "sum_projects_value": 41930000, "politician_name": "Lau Lee Ming", "slug": "lau-lee-ming", "director_name": "LAU LEE MING"}, {"num_projects": 14, "sum_projects_value": 11678772.0, "politician_name": "Tajul Urus Bin Mat Zain", "slug": "tajul-urus-bin-mat-zain", "director_name": "TAJUL URUS BIN MAT ZAIN"}, {"num_projects": 13, "sum_projects_value": 24444284, "politician_name": "Abdul Halim Bin Samad", "slug": "abdul-halim-bin-samad", "director_name": "ABDUL HALIM BIN SAMAD"}, {"num_projects": 12, "sum_projects_value": 28750002.0, "politician_name": "Abdul Latiff Bin Abdul Rahman", "slug": "abdul-latiff-bin-abdul-rahman", "director_name": "ABDUL LATIFF BIN ABDUL RAHMAN"}, {"num_projects": 12, "sum_projects_value": 93377873, "politician_name": "Ahmad Shah Bin Hussein Tambakau", "slug": "ahmad-shah-bin-hussein-tambakau", "director_name": "AHMAD SHAH BIN HUSSEIN TAMBAKAU"}, {"num_projects": 12, "sum_projects_value": 55955634, "politician_name": "Azmi Bin Othman", "slug": "azmi-bin-othman", "director_name": "AZMI BIN OTHMAN"}, {"num_projects": 12, "sum_projects_value": 215818217.0, "politician_name": "Karim Bin Yaacob", "slug": "karim-bin-yaacob", "director_name": "KARIM BIN YAACOB"}, {"num_projects": 12, "sum_projects_value": 8740800.0, "politician_name": "Khoo Boon Chuan", "slug": "khoo-boon-chuan", "director_name": "KHOO BOON CHUAN"}, {"num_projects": 12, "sum_projects_value": 130116944, "politician_name": "Mohd Hazmi Bin Yusof", "slug": "mohd-hazmi-bin-yusof", "director_name": "MOHD HAZMI BIN YUSOF"}, {"num_projects": 12, "sum_projects_value": 29995214.0, "politician_name": "Nordin Bin Ahmad", "slug": "nordin-bin-ahmad", "director_name": "NORDIN BIN AHMAD"}, {"num_projects": 11, "sum_projects_value": 9797414, "politician_name": "Abu Bakar Abdullah", "slug": "abu-bakar-abdullah", "director_name": "ABU BAKAR ABDULLAH"}, {"num_projects": 11, "sum_projects_value": 8975434.0, "politician_name": "Ali Anak Biju", "slug": "ali-anak-biju", "director_name": "ALI ANAK BIJU"}, {"num_projects": 11, "sum_projects_value": 36628563, "politician_name": "Anuar Bin Safian", "slug": "anuar-bin-safian", "director_name": "ANUAR BIN SAFIAN"}, {"num_projects": 11, "sum_projects_value": 9797414, "politician_name": "Azmi Abdullah", "slug": "azmi-abdullah", "director_name": "AZMI ABDULLAH"}, {"num_projects": 11, "sum_projects_value": 13866036, "politician_name": "Mazlan Bin Ismail", "slug": "mazlan-bin-ismail", "director_name": "MAZLAN BIN ISMAIL"}, {"num_projects": 11, "sum_projects_value": 3204528, "politician_name": "Mohd Fadzli Bin Mohd Ramly", "slug": "mohd-fadzli-bin-mohd-ramly", "director_name": "MOHD FADZLI BIN MOHD RAMLY"}, {"num_projects": 10, "sum_projects_value": 15379120, "politician_name": "Abdullah Bin Hashim", "slug": "abdullah-bin-hashim", "director_name": "ABDULLAH BIN HASHIM"}, {"num_projects": 10, "sum_projects_value": 267188, "politician_name": "Ahmad Bin Kasim", "slug": "ahmad-bin-kasim", "director_name": "AHMAD BIN KASIM"}, {"num_projects": 10, "sum_projects_value": 33667027.0, "politician_name": "Azman Bin Ismail", "slug": "azman-bin-ismail", "director_name": "AZMAN BIN ISMAIL"}, {"num_projects": 10, "sum_projects_value": 21426568.0, "politician_name": "Ibrahim Bin Ahmad", "slug": "ibrahim-bin-ahmad", "director_name": "IBRAHIM BIN AHMAD"}, {"num_projects": 10, "sum_projects_value": 181114256, "politician_name": "Ilias Bin Husain", "slug": "ilias-bin-husain", "director_name": "ILIAS BIN HUSAIN"}, {"num_projects": 10, "sum_projects_value": 22427150, "politician_name": "Lim Ah Chai", "slug": "lim-ah-chai", "director_name": "LIM AH CHAI"}, {"num_projects": 10, "sum_projects_value": 26523519, "politician_name": "Mohamed Bin Jaafar", "slug": "mohamed-bin-jaafar", "director_name": "MOHAMED BIN JAAFAR"}, {"num_projects": 10, "sum_projects_value": 122634433.0, "politician_name": "Shaari Bin Mat Hussain", "slug": "shaari-bin-mat-hussain", "director_name": "SHAARI BIN MAT HUSSAIN"}, {"num_projects": 9, "sum_projects_value": 61272637, "politician_name": "Abu Bakar Bin Harun", "slug": "abu-bakar-bin-harun", "director_name": "ABU BAKAR BIN HARUN"}, {"num_projects": 9, "sum_projects_value": 11873906.0, "politician_name": "Ahmad Bin Bujang", "slug": "ahmad-bin-bujang", "director_name": "AHMAD BIN BUJANG"}, {"num_projects": 9, "sum_projects_value": 349098, "politician_name": "Mohd Nizar Bin Zakaria", "slug": "mohd-nizar-bin-zakaria", "director_name": "MOHD NIZAR BIN ZAKARIA"}, {"num_projects": 9, "sum_projects_value": 749754, "politician_name": "Sabry Bin Ahmad", "slug": "sabry-bin-ahmad", "director_name": "SABRY BIN AHMAD"}, {"num_projects": 9, "sum_projects_value": 108425438, "politician_name": "Wan Hanapi Bin Wan Yaacob", "slug": "wan-hanapi-bin-wan-yaacob", "director_name": "WAN HANAPI BIN WAN YAACOB"}, {"num_projects": 8, "sum_projects_value": 62210051, "politician_name": "Abd Latif Bin Bandi @ Nor Sebandi", "slug": "abd-latif-bin-bandi-nor-sebandi", "director_name": "ABD LATIF BIN BANDI @ NOR SEBANDI"}, {"num_projects": 8, "sum_projects_value": 26322869, "politician_name": "Abdul Malik Bin Yusof", "slug": "abdul-malik-bin-yusof", "director_name": "ABDUL MALIK BIN YUSOF"}, {"num_projects": 8, "sum_projects_value": 6191415, "politician_name": "Abu Bakar Bin Abdullah", "slug": "abu-bakar-bin-abdullah", "director_name": "ABU BAKAR BIN ABDULLAH"}, {"num_projects": 8, "sum_projects_value": 29121778, "politician_name": "Bee Sieong Heng", "slug": "bee-sieong-heng", "director_name": "BEE SIEONG HENG"}, {"num_projects": 8, "sum_projects_value": 65301032.0, "politician_name": "Mat Bin Hassan", "slug": "mat-bin-hassan", "director_name": "MAT BIN HASSAN"}, {"num_projects": 8, "sum_projects_value": 154601912.0, "politician_name": "Sulaiman Bin Haji Abdul Razak", "slug": "sulaiman-bin-haji-abdul-razak", "director_name": "SULAIMAN BIN HAJI ABDUL RAZAK"}, {"num_projects": 8, "sum_projects_value": 22793328, "politician_name": "Wong Kok Yew", "slug": "wong-kok-yew", "director_name": "WONG KOK YEW"}, {"num_projects": 7, "sum_projects_value": 15739010, "politician_name": "Goh Kim Swee", "slug": "goh-kim-swee", "director_name": "GOH KIM SWEE"}, {"num_projects": 7, "sum_projects_value": 2216716.0, "politician_name": "Mohamad Bin Awang", "slug": "mohamad-bin-awang", "director_name": "MOHAMAD BIN AWANG"}, {"num_projects": 7, "sum_projects_value": 60748143, "politician_name": "Mohd Azhar Bin Jamaluddin", "slug": "mohd-azhar-bin-jamaluddin", "director_name": "MOHD AZHAR BIN JAMALUDDIN"}, {"num_projects": 7, "sum_projects_value": 2676132, "politician_name": "Mohd Bin Manuke", "slug": "mohd-bin-manuke", "director_name": "MOHD BIN MANUKE"}, {"num_projects": 7, "sum_projects_value": 322818140.0, "politician_name": "Nik Faisal Ariff Kamil", "slug": "nik-faisal-ariff-kamil", "director_name": "NIK FAISAL ARIFF KAMIL"}, {"num_projects": 7, "sum_projects_value": 198700635, "politician_name": "Rosli Bin Mat Hassan", "slug": "rosli-bin-mat-hassan", "director_name": "ROSLI BIN MAT HASSAN"}, {"num_projects": 7, "sum_projects_value": 46160426, "politician_name": "Zulkurnain Bin Kamisan", "slug": "zulkurnain-bin-kamisan", "director_name": "ZULKURNAIN BIN KAMISAN"}, {"num_projects": 6, "sum_projects_value": 924117.0, "politician_name": "Ahmad Bin Sudin", "slug": "ahmad-bin-sudin", "director_name": "AHMAD BIN SUDIN"}, {"num_projects": 6, "sum_projects_value": 70003267, "politician_name": "Ahmad Tarmizi Bin Sulaiman", "slug": "ahmad-tarmizi-bin-sulaiman", "director_name": "AHMAD TARMIZI BIN SULAIMAN"}, {"num_projects": 6, "sum_projects_value": 5853539.0, "politician_name": "Mohamad Yusof Bin Mohamed Yassin", "slug": "mohamad-yusof-bin-mohamed-yassin", "director_name": "MOHAMAD YUSOF BIN MOHAMED YASSIN"}, {"num_projects": 6, "sum_projects_value": 207856.0, "politician_name": "Othman Bin Bakar", "slug": "othman-bin-bakar", "director_name": "OTHMAN BIN BAKAR"}, {"num_projects": 6, "sum_projects_value": 51744015, "politician_name": "Radzali Bin Mokhtar", "slug": "radzali-bin-mokhtar", "director_name": "RADZALI BIN MOKHTAR"}, {"num_projects": 6, "sum_projects_value": 33416876, "politician_name": "Said Anuar Bin Said Ahmad", "slug": "said-anuar-bin-said-ahmad", "director_name": "SAID ANUAR BIN SAID AHMAD"}, {"num_projects": 6, "sum_projects_value": 22027378, "politician_name": "Terence Sinti", "slug": "terence-sinti", "director_name": "TERENCE SINTI"}, {"num_projects": 5, "sum_projects_value": 961687.0, "politician_name": "Alias Bin Harun", "slug": "alias-bin-harun", "director_name": "ALIAS BIN HARUN"}, {"num_projects": 5, "sum_projects_value": 432677, "politician_name": "Badrol Hisham Bin Hashim", "slug": "badrol-hisham-bin-hashim", "director_name": "BADROL HISHAM BIN HASHIM"}, {"num_projects": 5, "sum_projects_value": 12001115, "politician_name": "Ikmal Hisham Bin Abdul Aziz", "slug": "ikmal-hisham-bin-abdul-aziz", "director_name": "IKMAL HISHAM BIN ABDUL AZIZ"}, {"num_projects": 5, "sum_projects_value": 119662812, "politician_name": "Ismail Bin Nik", "slug": "ismail-bin-nik", "director_name": "ISMAIL BIN NIK"}, {"num_projects": 5, "sum_projects_value": 29218720, "politician_name": "Mansor Bin Musa", "slug": "mansor-bin-musa", "director_name": "MANSOR BIN MUSA"}, {"num_projects": 5, "sum_projects_value": 10320500, "politician_name": "Mohd Khusairi Bin Abdul Talib", "slug": "mohd-khusairi-bin-abdul-talib", "director_name": "MOHD KHUSAIRI BIN ABDUL TALIB"}, {"num_projects": 5, "sum_projects_value": 19474244, "politician_name": "Mohd Mahdi Bin Musa", "slug": "mohd-mahdi-bin-musa", "director_name": "MOHD MAHDI BIN MUSA"}, {"num_projects": 5, "sum_projects_value": 812932.0, "politician_name": "Zulkefli Bin Ibrahim", "slug": "zulkefli-bin-ibrahim", "director_name": "ZULKEFLI BIN IBRAHIM"}, {"num_projects": 4, "sum_projects_value": 305693, "politician_name": "Abd Rahman Bin Yunus", "slug": "abd-rahman-bin-yunus", "director_name": "ABD RAHMAN BIN YUNUS"}, {"num_projects": 4, "sum_projects_value": 118073548.0, "politician_name": "Abdul Aziz Bin Hassan", "slug": "abdul-aziz-bin-hassan", "director_name": "ABDUL AZIZ BIN HASSAN"}, {"num_projects": 4, "sum_projects_value": 85000, "politician_name": "Ahmad Bin Said", "slug": "ahmad-bin-said", "director_name": "AHMAD BIN SAID"}, {"num_projects": 4, "sum_projects_value": 27907480, "politician_name": "Aimi Bin Jusoh", "slug": "aimi-bin-jusoh", "director_name": "AIMI BIN JUSOH"}, {"num_projects": 4, "sum_projects_value": 2565900, "politician_name": "Cheah Chee Kuan", "slug": "cheah-chee-kuan", "director_name": "CHEAH CHEE KUAN"}, {"num_projects": 4, "sum_projects_value": 8597153, "politician_name": "Chong Eng", "slug": "chong-eng", "director_name": "CHONG ENG"}, {"num_projects": 4, "sum_projects_value": 68104187, "politician_name": "Dali Bin Husin", "slug": "dali-bin-husin", "director_name": "DALI BIN HUSIN"}, {"num_projects": 4, "sum_projects_value": 225886525, "politician_name": "Datu Amir Kahar Bin Datu Mustapha", "slug": "datu-amir-kahar-bin-datu-mustapha", "director_name": "DATU AMIR KAHAR BIN DATU MUSTAPHA"}, {"num_projects": 4, "sum_projects_value": 3945171.0, "politician_name": "Edward Dagul", "slug": "edward-dagul", "director_name": "EDWARD DAGUL"}, {"num_projects": 4, "sum_projects_value": 197474115, "politician_name": "Hamisa Binti Samat", "slug": "hamisa-binti-samat", "director_name": "HAMISA BINTI SAMAT"}, {"num_projects": 4, "sum_projects_value": 4911560, "politician_name": "Lee Boon Kok", "slug": "lee-boon-kok", "director_name": "LEE BOON KOK"}, {"num_projects": 4, "sum_projects_value": 11645228.0, "politician_name": "Mansor Bin Salleh", "slug": "mansor-bin-salleh", "director_name": "MANSOR BIN SALLEH"}, {"num_projects": 4, "sum_projects_value": 144571, "politician_name": "Mohd Adhan Bin Kechik", "slug": "mohd-adhan-bin-kechik", "director_name": "MOHD ADHAN BIN KECHIK"}, {"num_projects": 4, "sum_projects_value": 436685586, "politician_name": "Najmuddin Bin Darus", "slug": "najmuddin-bin-darus", "director_name": "NAJMUDDIN BIN DARUS"}, {"num_projects": 4, "sum_projects_value": 988244, "politician_name": "Rohani Binti Ibrahim", "slug": "rohani-binti-ibrahim", "director_name": "ROHANI BINTI IBRAHIM"}, {"num_projects": 4, "sum_projects_value": 65348211, "politician_name": "Rusnah Binti Kassim", "slug": "rusnah-binti-kassim", "director_name": "RUSNAH BINTI KASSIM"}, {"num_projects": 4, "sum_projects_value": 24820573, "politician_name": "Saipolbahari Bin Suib", "slug": "saipolbahari-bin-suib", "director_name": "SAIPOLBAHARI BIN SUIB"}, {"num_projects": 4, "sum_projects_value": 3945171.0, "politician_name": "Stephan Bin Gaimin", "slug": "stephan-bin-gaimin", "director_name": "STEPHAN BIN GAIMIN"}, {"num_projects": 4, "sum_projects_value": 11039045, "politician_name": "Tan Ken Ten", "slug": "tan-ken-ten", "director_name": "TAN KEN TEN"}, {"num_projects": 4, "sum_projects_value": 4705843, "politician_name": "Yong Oui Fah", "slug": "yong-oui-fah", "director_name": "YONG OUI FAH"}, {"num_projects": 4, "sum_projects_value": 24041423, "politician_name": "Zainal Bin Nasiruddin", "slug": "zainal-bin-nasiruddin", "director_name": "ZAINAL BIN NASIRUDDIN"}, {"num_projects": 3, "sum_projects_value": 1851738, "politician_name": "Ahmad Jazlan Bin Yaakub", "slug": "ahmad-jazlan-bin-yaakub", "director_name": "AHMAD JAZLAN BIN YAAKUB"}, {"num_projects": 3, "sum_projects_value": 134227, "politician_name": "Azan Bin Ismail", "slug": "azan-bin-ismail", "director_name": "AZAN BIN ISMAIL"}, {"num_projects": 3, "sum_projects_value": 16979549, "politician_name": "Che Jalal Bin Muda", "slug": "che-jalal-bin-muda", "director_name": "CHE JALAL BIN MUDA"}, {"num_projects": 3, "sum_projects_value": 7330782, "politician_name": "Donald Lawan", "slug": "donald-lawan", "director_name": "DONALD LAWAN"}, {"num_projects": 3, "sum_projects_value": 56844194, "politician_name": "Ismail Bin Kasim", "slug": "ismail-bin-kasim", "director_name": "ISMAIL BIN KASIM"}, {"num_projects": 3, "sum_projects_value": 3349500, "politician_name": "Ismail Bin Mohamed", "slug": "ismail-bin-mohamed", "director_name": "ISMAIL BIN MOHAMED"}, {"num_projects": 3, "sum_projects_value": 8304108, "politician_name": "Mohd Afandi Bin Yusoff", "slug": "mohd-afandi-bin-yusoff", "director_name": "MOHD AFANDI BIN YUSOFF"}, {"num_projects": 3, "sum_projects_value": 1916900, "politician_name": "Mohd Zain Bin Ahmad", "slug": "mohd-zain-bin-ahmad", "director_name": "MOHD ZAIN BIN AHMAD"}, {"num_projects": 3, "sum_projects_value": 9619241.0, "politician_name": "Mustapa Bin Mohamed", "slug": "mustapa-bin-mohamed", "director_name": "MUSTAPA BIN MOHAMED"}, {"num_projects": 3, "sum_projects_value": 59975, "politician_name": "Mutang @ Sylvester Bin Dawat", "slug": "mutang-sylvester-bin-dawat", "director_name": "MUTANG @ SYLVESTER BIN DAWAT"}, {"num_projects": 3, "sum_projects_value": 17960000, "politician_name": "Ong Thean Lye", "slug": "ong-thean-lye", "director_name": "ONG THEAN LYE"}, {"num_projects": 3, "sum_projects_value": 46395000, "politician_name": "Philip Benedict Lasimbang", "slug": "philip-benedict-lasimbang", "director_name": "PHILIP BENEDICT LASIMBANG"}, {"num_projects": 3, "sum_projects_value": 13549191, "politician_name": "Saravanan A/L Murugan", "slug": "saravanan-a-l-murugan", "director_name": "SARAVANAN A/L MURUGAN"}, {"num_projects": 3, "sum_projects_value": 10087682, "politician_name": "Sharudin Bin Ahmad", "slug": "sharudin-bin-ahmad", "director_name": "SHARUDIN BIN AHMAD"}, {"num_projects": 3, "sum_projects_value": 5933804, "politician_name": "Suhaimi Bin Hashim", "slug": "suhaimi-bin-hashim", "director_name": "SUHAIMI BIN HASHIM"}, {"num_projects": 3, "sum_projects_value": 10506797, "politician_name": "Wan Kadri Bin Wan Mahusain", "slug": "wan-kadri-bin-wan-mahusain", "director_name": "WAN KADRI BIN WAN MAHUSAIN"}, {"num_projects": 3, "sum_projects_value": 12702345.0, "politician_name": "Zubir Bin Ahmad", "slug": "zubir-bin-ahmad", "director_name": "ZUBIR BIN AHMAD"}, {"num_projects": 2, "sum_projects_value": 7483767, "politician_name": "Abdul Aziz Bin Derashid", "slug": "abdul-aziz-bin-derashid", "director_name": "ABDUL AZIZ BIN DERASHID"}, {"num_projects": 2, "sum_projects_value": 1853487, "politician_name": "Ibrahim Bin Yaacob", "slug": "ibrahim-bin-yaacob", "director_name": "IBRAHIM BIN YAACOB"}, {"num_projects": 2, "sum_projects_value": 5201870.0, "politician_name": "Ismail Bin Othman", "slug": "ismail-bin-othman", "director_name": "ISMAIL BIN OTHMAN"}, {"num_projects": 2, "sum_projects_value": 28180000, "politician_name": "Lee Ching Yong", "slug": "lee-ching-yong", "director_name": "LEE CHING YONG"}, {"num_projects": 2, "sum_projects_value": 1547634, "politician_name": "Lim Pek Har", "slug": "lim-pek-har", "director_name": "LIM PEK HAR"}, {"num_projects": 2, "sum_projects_value": 13906788.0, "politician_name": "Mat Yusoff Bin Abdul Ghani", "slug": "mat-yusoff-bin-abdul-ghani", "director_name": "MAT YUSOFF BIN ABDUL GHANI"}, {"num_projects": 2, "sum_projects_value": 7620900, "politician_name": "Mohd Jamal Bin Nasir", "slug": "mohd-jamal-bin-nasir", "director_name": "MOHD JAMAL BIN NASIR"}, {"num_projects": 2, "sum_projects_value": 685664, "politician_name": "Mohd Nasir Bin Hashim", "slug": "mohd-nasir-bin-hashim", "director_name": "MOHD NASIR BIN HASHIM"}, {"num_projects": 2, "sum_projects_value": 181800, "politician_name": "Mohd Zan Bin Abu", "slug": "mohd-zan-bin-abu", "director_name": "MOHD ZAN BIN ABU"}, {"num_projects": 2, "sum_projects_value": 24333000, "politician_name": "Mohd Zolkafly Bin Harun", "slug": "mohd-zolkafly-bin-harun", "director_name": "MOHD ZOLKAFLY BIN HARUN"}, {"num_projects": 2, "sum_projects_value": 8396465, "politician_name": "Muhammad Pehimi Bin Yusof", "slug": "muhammad-pehimi-bin-yusof", "director_name": "MUHAMMAD PEHIMI BIN YUSOF"}, {"num_projects": 2, "sum_projects_value": 203276, "politician_name": "Natrah Binti Ismail", "slug": "natrah-binti-ismail", "director_name": "NATRAH BINTI ISMAIL"}, {"num_projects": 2, "sum_projects_value": 131915, "politician_name": "Nik Noriza Binti Nik Salleh", "slug": "nik-noriza-binti-nik-salleh", "director_name": "NIK NORIZA BINTI NIK SALLEH"}, {"num_projects": 2, "sum_projects_value": 18204612, "politician_name": "Norhayati Binti Omar", "slug": "norhayati-binti-omar", "director_name": "NORHAYATI BINTI OMAR"}, {"num_projects": 2, "sum_projects_value": 59094448, "politician_name": "Ronald Kiandee", "slug": "ronald-kiandee", "director_name": "RONALD KIANDEE"}, {"num_projects": 2, "sum_projects_value": 19396000, "politician_name": "Rosli Bin Ibrahim", "slug": "rosli-bin-ibrahim", "director_name": "ROSLI BIN IBRAHIM"}, {"num_projects": 2, "sum_projects_value": 98803424.0, "politician_name": "Tajuddin Bin Abdul Rahman", "slug": "tajuddin-bin-abdul-rahman", "director_name": "TAJUDDIN BIN ABDUL RAHMAN"}, {"num_projects": 2, "sum_projects_value": 808244, "politician_name": "Tan Chai Ho", "slug": "tan-chai-ho", "director_name": "TAN CHAI HO"}, {"num_projects": 2, "sum_projects_value": 698540, "politician_name": "Teh Kim Poo", "slug": "teh-kim-poo", "director_name": "TEH KIM POO"}, {"num_projects": 2, "sum_projects_value": 11861236, "politician_name": "Teh Leong Meng", "slug": "teh-leong-meng", "director_name": "TEH LEONG MENG"}, {"num_projects": 2, "sum_projects_value": 1795991, "politician_name": "Tiong Thai King", "slug": "tiong-thai-king", "director_name": "TIONG THAI KING"}, {"num_projects": 2, "sum_projects_value": 6257535, "politician_name": "Tuan Mustaffa Bin Tuan Mat", "slug": "tuan-mustaffa-bin-tuan-mat", "director_name": "TUAN MUSTAFFA BIN TUAN MAT"}, {"num_projects": 2, "sum_projects_value": 38037094.0, "politician_name": "Wong Yit Ming", "slug": "wong-yit-ming", "director_name": "WONG YIT MING"}, {"num_projects": 2, "sum_projects_value": 73130, "politician_name": "Yap Yew Weng", "slug": "yap-yew-weng", "director_name": "YAP YEW WENG"}, {"num_projects": 1, "sum_projects_value": 44902600, "politician_name": "Abdul Ghafar Bin Atan", "slug": "abdul-ghafar-bin-atan", "director_name": "ABDUL GHAFAR BIN ATAN"}, {"num_projects": 1, "sum_projects_value": 3318880, "politician_name": "Abu Hasan Bin Sarif", "slug": "abu-hasan-bin-sarif", "director_name": "ABU HASAN BIN SARIF"}, {"num_projects": 1, "sum_projects_value": 15171000, "politician_name": "Azizan Bin Abdul Razak", "slug": "azizan-bin-abdul-razak", "director_name": "AZIZAN BIN ABDUL RAZAK"}, {"num_projects": 1, "sum_projects_value": 554070, "politician_name": "Chong Seng Foo", "slug": "chong-seng-foo", "director_name": "CHONG SENG FOO"}, {"num_projects": 1, "sum_projects_value": 2472000, "politician_name": "Hasiman Bin Sidom", "slug": "hasiman-bin-sidom", "director_name": "HASIMAN BIN SIDOM"}, {"num_projects": 1, "sum_projects_value": 222915, "politician_name": "Ismail Bin Daut", "slug": "ismail-bin-daut", "director_name": "ISMAIL BIN DAUT"}, {"num_projects": 1, "sum_projects_value": 5079519, "politician_name": "Liew Pok Boon", "slug": "liew-pok-boon", "director_name": "LIEW POK BOON"}, {"num_projects": 1, "sum_projects_value": 2695000, "politician_name": "Lim Fook Hin", "slug": "lim-fook-hin", "director_name": "LIM FOOK HIN"}, {"num_projects": 1, "sum_projects_value": 6350, "politician_name": "Maijol Bin Mahap", "slug": "maijol-bin-mahap", "director_name": "MAIJOL BIN MAHAP"}, {"num_projects": 1, "sum_projects_value": 803953, "politician_name": "Mohamad Bin Alamin", "slug": "mohamad-bin-alamin", "director_name": "MOHAMAD BIN ALAMIN"}, {"num_projects": 1, "sum_projects_value": 28386978, "politician_name": "Mohd Arifin B Mohd Arif", "slug": "mohd-arifin-b-mohd-arif", "director_name": "MOHD ARIFIN B MOHD ARIF"}, {"num_projects": 1, "sum_projects_value": 17950, "politician_name": "Mohd Shukri Bin Ramli", "slug": "mohd-shukri-bin-ramli", "director_name": "MOHD SHUKRI BIN RAMLI"}, {"num_projects": 1, "sum_projects_value": 669000, "politician_name": "Mohd Zawawi Bin Abu Hassan", "slug": "mohd-zawawi-bin-abu-hassan", "director_name": "MOHD ZAWAWI BIN ABU HASSAN"}, {"num_projects": 1, "sum_projects_value": 36910000, "politician_name": "Ong Tang Chuan", "slug": "ong-tang-chuan", "director_name": "ONG TANG CHUAN"}, {"num_projects": 1, "sum_projects_value": 1300030, "politician_name": "Raymond Bin Ahuar", "slug": "raymond-bin-ahuar", "director_name": "RAYMOND BIN AHUAR"}, {"num_projects": 1, "sum_projects_value": 44000, "politician_name": "Redzuan Bin Stapha", "slug": "redzuan-bin-stapha", "director_name": "REDZUAN BIN STAPHA"}, {"num_projects": 1, "sum_projects_value": 5705523, "politician_name": "Ridzuan Bin Ismail", "slug": "ridzuan-bin-ismail", "director_name": "RIDZUAN BIN ISMAIL"}, {"num_projects": 1, "sum_projects_value": 370000, "politician_name": "Rosli Bin Othman", "slug": "rosli-bin-othman", "director_name": "ROSLI BIN OTHMAN"}, {"num_projects": 1, "sum_projects_value": 422395, "politician_name": "Rosman Bin Jonet", "slug": "rosman-bin-jonet", "director_name": "ROSMAN BIN JONET"}, {"num_projects": 1, "sum_projects_value": 135675, "politician_name": "Rusli Bin Baba", "slug": "rusli-bin-baba", "director_name": "RUSLI BIN BABA"}, {"num_projects": 1, "sum_projects_value": 36250, "politician_name": "Shahfie Bin Ahmad", "slug": "shahfie-bin-ahmad", "director_name": "SHAHFIE BIN AHMAD"}, {"num_projects": 1, "sum_projects_value": 3757260, "politician_name": "Sim Chee Keong", "slug": "sim-chee-keong", "director_name": "SIM CHEE KEONG"}, {"num_projects": 1, "sum_projects_value": 38170, "politician_name": "Suhaimi Bin Salleh", "slug": "suhaimi-bin-salleh", "director_name": "SUHAIMI BIN SALLEH"}, {"num_projects": 1, "sum_projects_value": 1413531, "politician_name": "Sulaiman Bin Md Ali", "slug": "sulaiman-bin-md-ali", "director_name": "SULAIMAN BIN MD ALI"}, {"num_projects": 1, "sum_projects_value": 34908, "politician_name": "Tan Ah Bee", "slug": "tan-ah-bee", "director_name": "TAN AH BEE"}, {"num_projects": 1, "sum_projects_value": 566196, "politician_name": "Tan Ah Kow", "slug": "tan-ah-kow", "director_name": "TAN AH KOW"}, {"num_projects": 1, "sum_projects_value": 2695000, "politician_name": "Tan Aik Yong", "slug": "tan-aik-yong", "director_name": "TAN AIK YONG"}, {"num_projects": 1, "sum_projects_value": 0.0, "politician_name": "Tan Kok Wai", "slug": "tan-kok-wai", "director_name": "TAN KOK WAI"}, {"num_projects": 1, "sum_projects_value": 8500000, "politician_name": "Teh Kok Lim", "slug": "teh-kok-lim", "director_name": "TEH KOK LIM"}, {"num_projects": 1, "sum_projects_value": 4546000, "politician_name": "Teo Eng Siong", "slug": "teo-eng-siong", "director_name": "TEO ENG SIONG"}, {"num_projects": 1, "sum_projects_value": 952000, "politician_name": "Tham Weng Fatt", "slug": "tham-weng-fatt", "director_name": "THAM WENG FATT"}, {"num_projects": 1, "sum_projects_value": 37500000, "politician_name": "Wan Ahmad Nizam Bin Wan Abdul Hamid", "slug": "wan-ahmad-nizam-bin-wan-abdul-hamid", "director_name": "WAN AHMAD NIZAM BIN WAN ABDUL HAMID"}, {"num_projects": 1, "sum_projects_value": 3258530, "politician_name": "Wan Mokhtar Bin Wan Ibrahim", "slug": "wan-mokhtar-bin-wan-ibrahim", "director_name": "WAN MOKHTAR BIN WAN IBRAHIM"}]
+[
+  {
+    "num_projects": 303,
+    "sum_projects_value": 98008275,
+    "politician_name": "Ng Choon Koon",
+    "slug": "ng-choon-koon",
+    "director_name": "NG CHOON KOON"
+  },
+  {
+    "num_projects": 91,
+    "sum_projects_value": 23181694,
+    "politician_name": "Tan Shu Tee",
+    "slug": "tan-shu-tee",
+    "director_name": "TAN SHU TEE"
+  },
+  {
+    "num_projects": 85,
+    "sum_projects_value": 1136587079,
+    "politician_name": "Mohd Yusof Bin Din",
+    "slug": "mohd-yusof-bin-din",
+    "director_name": "MOHD YUSOF BIN DIN"
+  },
+  {
+    "num_projects": 72,
+    "sum_projects_value": 11972256,
+    "politician_name": "Chan Chin Chee",
+    "slug": "chan-chin-chee",
+    "director_name": "CHAN CHIN CHEE"
+  },
+  {
+    "num_projects": 67,
+    "sum_projects_value": 1048560449,
+    "politician_name": "Hee Loy Sian",
+    "slug": "hee-loy-sian",
+    "director_name": "HEE LOY SIAN"
+  },
+  {
+    "num_projects": 64,
+    "sum_projects_value": 4039819748,
+    "politician_name": "Zakaria Bin Abdul Hamid",
+    "slug": "zakaria-bin-abdul-hamid",
+    "director_name": "ZAKARIA BIN ABDUL HAMID"
+  },
+  {
+    "num_projects": 51,
+    "sum_projects_value": 102461906,
+    "politician_name": "Tan Cheng Chai",
+    "slug": "tan-cheng-chai",
+    "director_name": "TAN CHENG CHAI"
+  },
+  {
+    "num_projects": 44,
+    "sum_projects_value": 220946930,
+    "politician_name": "Abdullah Bin Ya'Kub",
+    "slug": "abdullah-bin-ya-kub",
+    "director_name": "ABDULLAH BIN YA'KUB"
+  },
+  {
+    "num_projects": 44,
+    "sum_projects_value": 220946930,
+    "politician_name": "Hanifa Bin Ahmad",
+    "slug": "hanifa-bin-ahmad",
+    "director_name": "HANIFA BIN AHMAD"
+  },
+  {
+    "num_projects": 44,
+    "sum_projects_value": 49571122,
+    "politician_name": "Ismail Bin Salleh",
+    "slug": "ismail-bin-salleh",
+    "director_name": "ISMAIL BIN SALLEH"
+  },
+  {
+    "num_projects": 42,
+    "sum_projects_value": 322552509,
+    "politician_name": "Ahmad Bin Saad @ Yahaya",
+    "slug": "ahmad-bin-saad-yahaya",
+    "director_name": "AHMAD BIN SAAD @ YAHAYA"
+  },
+  {
+    "num_projects": 40,
+    "sum_projects_value": 370643814,
+    "politician_name": "Azmi Bin Ahmad",
+    "slug": "azmi-bin-ahmad",
+    "director_name": "AZMI BIN AHMAD"
+  },
+  {
+    "num_projects": 38,
+    "sum_projects_value": 1377518610,
+    "politician_name": "Foo Chu Pak",
+    "slug": "foo-chu-pak",
+    "director_name": "FOO CHU PAK"
+  },
+  {
+    "num_projects": 35,
+    "sum_projects_value": 143833785,
+    "politician_name": "Ghazali Bin Ismail",
+    "slug": "ghazali-bin-ismail",
+    "director_name": "GHAZALI BIN ISMAIL"
+  },
+  {
+    "num_projects": 33,
+    "sum_projects_value": 77807032,
+    "politician_name": "Roslan Bin Ismail",
+    "slug": "roslan-bin-ismail",
+    "director_name": "ROSLAN BIN ISMAIL"
+  },
+  {
+    "num_projects": 30,
+    "sum_projects_value": 24833864,
+    "politician_name": "Ayub Bin Rahmat",
+    "slug": "ayub-bin-rahmat",
+    "director_name": "AYUB BIN RAHMAT"
+  },
+  {
+    "num_projects": 30,
+    "sum_projects_value": 103550368,
+    "politician_name": "Ma Kok Ben",
+    "slug": "ma-kok-ben",
+    "director_name": "MA KOK BEN"
+  },
+  {
+    "num_projects": 25,
+    "sum_projects_value": 188157422,
+    "politician_name": "Abdul Rahman Bin Mohamad",
+    "slug": "abdul-rahman-bin-mohamad",
+    "director_name": "ABDUL RAHMAN BIN MOHAMAD"
+  },
+  {
+    "num_projects": 25,
+    "sum_projects_value": 64957609,
+    "politician_name": "Ahmad Bin Ibrahim",
+    "slug": "ahmad-bin-ibrahim",
+    "director_name": "AHMAD BIN IBRAHIM"
+  },
+  {
+    "num_projects": 25,
+    "sum_projects_value": 73639117,
+    "politician_name": "Ramli Bin Ismail",
+    "slug": "ramli-bin-ismail",
+    "director_name": "RAMLI BIN ISMAIL"
+  },
+  {
+    "num_projects": 23,
+    "sum_projects_value": 726793823,
+    "politician_name": "Baderisham Bin Jolly",
+    "slug": "baderisham-bin-jolly",
+    "director_name": "BADERISHAM BIN JOLLY"
+  },
+  {
+    "num_projects": 23,
+    "sum_projects_value": 33062526,
+    "politician_name": "Tan Ah Eng",
+    "slug": "tan-ah-eng",
+    "director_name": "TAN AH ENG"
+  },
+  {
+    "num_projects": 21,
+    "sum_projects_value": 95631190,
+    "politician_name": "Abdul Rahim Bin Pandak Kamarudin",
+    "slug": "abdul-rahim-bin-pandak-kamarudin",
+    "director_name": "ABDUL RAHIM BIN PANDAK KAMARUDIN"
+  },
+  {
+    "num_projects": 20,
+    "sum_projects_value": 27366557,
+    "politician_name": "Fadzil Bin Baharum",
+    "slug": "fadzil-bin-baharum",
+    "director_name": "FADZIL BIN BAHARUM"
+  },
+  {
+    "num_projects": 20,
+    "sum_projects_value": 51947812,
+    "politician_name": "Mohamad Bin Ismail",
+    "slug": "mohamad-bin-ismail",
+    "director_name": "MOHAMAD BIN ISMAIL"
+  },
+  {
+    "num_projects": 20,
+    "sum_projects_value": 1003728286,
+    "politician_name": "Roslan Bin Zainal",
+    "slug": "roslan-bin-zainal",
+    "director_name": "ROSLAN BIN ZAINAL"
+  },
+  {
+    "num_projects": 20,
+    "sum_projects_value": 49690247,
+    "politician_name": "Tan Hock Huat",
+    "slug": "tan-hock-huat",
+    "director_name": "TAN HOCK HUAT"
+  },
+  {
+    "num_projects": 19,
+    "sum_projects_value": 2667555,
+    "politician_name": "Ahmad Bin Abdullah",
+    "slug": "ahmad-bin-abdullah",
+    "director_name": "AHMAD BIN ABDULLAH"
+  },
+  {
+    "num_projects": 18,
+    "sum_projects_value": 386234648,
+    "politician_name": "Ibrahim Bin Ismail",
+    "slug": "ibrahim-bin-ismail",
+    "director_name": "IBRAHIM BIN ISMAIL"
+  },
+  {
+    "num_projects": 18,
+    "sum_projects_value": 847585570,
+    "politician_name": "Limus Bin Jury",
+    "slug": "limus-bin-jury",
+    "director_name": "LIMUS BIN JURY"
+  },
+  {
+    "num_projects": 18,
+    "sum_projects_value": 2723980,
+    "politician_name": "Wong Hock Aun",
+    "slug": "wong-hock-aun",
+    "director_name": "WONG HOCK AUN"
+  },
+  {
+    "num_projects": 17,
+    "sum_projects_value": 187404193,
+    "politician_name": "Amirudin Bin Yusof",
+    "slug": "amirudin-bin-yusof",
+    "director_name": "AMIRUDIN BIN YUSOF"
+  },
+  {
+    "num_projects": 16,
+    "sum_projects_value": 504162900,
+    "politician_name": "Ramlee Bin Marahaban",
+    "slug": "ramlee-bin-marahaban",
+    "director_name": "RAMLEE BIN MARAHABAN"
+  },
+  {
+    "num_projects": 16,
+    "sum_projects_value": 103848192,
+    "politician_name": "Shariful Azhar Bin Othman",
+    "slug": "shariful-azhar-bin-othman",
+    "director_name": "SHARIFUL AZHAR BIN OTHMAN"
+  },
+  {
+    "num_projects": 15,
+    "sum_projects_value": 10238719,
+    "politician_name": "Tengku Zulpuri Shah Bin Raja Puji",
+    "slug": "tengku-zulpuri-shah-bin-raja-puji",
+    "director_name": "TENGKU ZULPURI SHAH BIN RAJA PUJI"
+  },
+  {
+    "num_projects": 14,
+    "sum_projects_value": 41930000,
+    "politician_name": "Lau Lee Ming",
+    "slug": "lau-lee-ming",
+    "director_name": "LAU LEE MING"
+  },
+  {
+    "num_projects": 14,
+    "sum_projects_value": 11678772,
+    "politician_name": "Tajul Urus Bin Mat Zain",
+    "slug": "tajul-urus-bin-mat-zain",
+    "director_name": "TAJUL URUS BIN MAT ZAIN"
+  },
+  {
+    "num_projects": 13,
+    "sum_projects_value": 24444284,
+    "politician_name": "Abdul Halim Bin Samad",
+    "slug": "abdul-halim-bin-samad",
+    "director_name": "ABDUL HALIM BIN SAMAD"
+  },
+  {
+    "num_projects": 12,
+    "sum_projects_value": 28750002,
+    "politician_name": "Abdul Latiff Bin Abdul Rahman",
+    "slug": "abdul-latiff-bin-abdul-rahman",
+    "director_name": "ABDUL LATIFF BIN ABDUL RAHMAN"
+  },
+  {
+    "num_projects": 12,
+    "sum_projects_value": 93377873,
+    "politician_name": "Ahmad Shah Bin Hussein Tambakau",
+    "slug": "ahmad-shah-bin-hussein-tambakau",
+    "director_name": "AHMAD SHAH BIN HUSSEIN TAMBAKAU"
+  },
+  {
+    "num_projects": 12,
+    "sum_projects_value": 55955634,
+    "politician_name": "Azmi Bin Othman",
+    "slug": "azmi-bin-othman",
+    "director_name": "AZMI BIN OTHMAN"
+  },
+  {
+    "num_projects": 12,
+    "sum_projects_value": 215818217,
+    "politician_name": "Karim Bin Yaacob",
+    "slug": "karim-bin-yaacob",
+    "director_name": "KARIM BIN YAACOB"
+  },
+  {
+    "num_projects": 12,
+    "sum_projects_value": 8740800,
+    "politician_name": "Khoo Boon Chuan",
+    "slug": "khoo-boon-chuan",
+    "director_name": "KHOO BOON CHUAN"
+  },
+  {
+    "num_projects": 12,
+    "sum_projects_value": 130116944,
+    "politician_name": "Mohd Hazmi Bin Yusof",
+    "slug": "mohd-hazmi-bin-yusof",
+    "director_name": "MOHD HAZMI BIN YUSOF"
+  },
+  {
+    "num_projects": 12,
+    "sum_projects_value": 29995214,
+    "politician_name": "Nordin Bin Ahmad",
+    "slug": "nordin-bin-ahmad",
+    "director_name": "NORDIN BIN AHMAD"
+  },
+  {
+    "num_projects": 11,
+    "sum_projects_value": 9797414,
+    "politician_name": "Abu Bakar Abdullah",
+    "slug": "abu-bakar-abdullah",
+    "director_name": "ABU BAKAR ABDULLAH"
+  },
+  {
+    "num_projects": 11,
+    "sum_projects_value": 8975434,
+    "politician_name": "Ali Anak Biju",
+    "slug": "ali-anak-biju",
+    "director_name": "ALI ANAK BIJU"
+  },
+  {
+    "num_projects": 11,
+    "sum_projects_value": 36628563,
+    "politician_name": "Anuar Bin Safian",
+    "slug": "anuar-bin-safian",
+    "director_name": "ANUAR BIN SAFIAN"
+  },
+  {
+    "num_projects": 11,
+    "sum_projects_value": 9797414,
+    "politician_name": "Azmi Abdullah",
+    "slug": "azmi-abdullah",
+    "director_name": "AZMI ABDULLAH"
+  },
+  {
+    "num_projects": 11,
+    "sum_projects_value": 13866036,
+    "politician_name": "Mazlan Bin Ismail",
+    "slug": "mazlan-bin-ismail",
+    "director_name": "MAZLAN BIN ISMAIL"
+  },
+  {
+    "num_projects": 11,
+    "sum_projects_value": 3204528,
+    "politician_name": "Mohd Fadzli Bin Mohd Ramly",
+    "slug": "mohd-fadzli-bin-mohd-ramly",
+    "director_name": "MOHD FADZLI BIN MOHD RAMLY"
+  },
+  {
+    "num_projects": 10,
+    "sum_projects_value": 15379120,
+    "politician_name": "Abdullah Bin Hashim",
+    "slug": "abdullah-bin-hashim",
+    "director_name": "ABDULLAH BIN HASHIM"
+  },
+  {
+    "num_projects": 10,
+    "sum_projects_value": 267188,
+    "politician_name": "Ahmad Bin Kasim",
+    "slug": "ahmad-bin-kasim",
+    "director_name": "AHMAD BIN KASIM"
+  },
+  {
+    "num_projects": 10,
+    "sum_projects_value": 33667027,
+    "politician_name": "Azman Bin Ismail",
+    "slug": "azman-bin-ismail",
+    "director_name": "AZMAN BIN ISMAIL"
+  },
+  {
+    "num_projects": 10,
+    "sum_projects_value": 21426568,
+    "politician_name": "Ibrahim Bin Ahmad",
+    "slug": "ibrahim-bin-ahmad",
+    "director_name": "IBRAHIM BIN AHMAD"
+  },
+  {
+    "num_projects": 10,
+    "sum_projects_value": 181114256,
+    "politician_name": "Ilias Bin Husain",
+    "slug": "ilias-bin-husain",
+    "director_name": "ILIAS BIN HUSAIN"
+  },
+  {
+    "num_projects": 10,
+    "sum_projects_value": 22427150,
+    "politician_name": "Lim Ah Chai",
+    "slug": "lim-ah-chai",
+    "director_name": "LIM AH CHAI"
+  },
+  {
+    "num_projects": 10,
+    "sum_projects_value": 26523519,
+    "politician_name": "Mohamed Bin Jaafar",
+    "slug": "mohamed-bin-jaafar",
+    "director_name": "MOHAMED BIN JAAFAR"
+  },
+  {
+    "num_projects": 10,
+    "sum_projects_value": 122634433,
+    "politician_name": "Shaari Bin Mat Hussain",
+    "slug": "shaari-bin-mat-hussain",
+    "director_name": "SHAARI BIN MAT HUSSAIN"
+  },
+  {
+    "num_projects": 9,
+    "sum_projects_value": 61272637,
+    "politician_name": "Abu Bakar Bin Harun",
+    "slug": "abu-bakar-bin-harun",
+    "director_name": "ABU BAKAR BIN HARUN"
+  },
+  {
+    "num_projects": 9,
+    "sum_projects_value": 11873906,
+    "politician_name": "Ahmad Bin Bujang",
+    "slug": "ahmad-bin-bujang",
+    "director_name": "AHMAD BIN BUJANG"
+  },
+  {
+    "num_projects": 9,
+    "sum_projects_value": 349098,
+    "politician_name": "Mohd Nizar Bin Zakaria",
+    "slug": "mohd-nizar-bin-zakaria",
+    "director_name": "MOHD NIZAR BIN ZAKARIA"
+  },
+  {
+    "num_projects": 9,
+    "sum_projects_value": 749754,
+    "politician_name": "Sabry Bin Ahmad",
+    "slug": "sabry-bin-ahmad",
+    "director_name": "SABRY BIN AHMAD"
+  },
+  {
+    "num_projects": 9,
+    "sum_projects_value": 108425438,
+    "politician_name": "Wan Hanapi Bin Wan Yaacob",
+    "slug": "wan-hanapi-bin-wan-yaacob",
+    "director_name": "WAN HANAPI BIN WAN YAACOB"
+  },
+  {
+    "num_projects": 8,
+    "sum_projects_value": 62210051,
+    "politician_name": "Abd Latif Bin Bandi @ Nor Sebandi",
+    "slug": "abd-latif-bin-bandi-nor-sebandi",
+    "director_name": "ABD LATIF BIN BANDI @ NOR SEBANDI"
+  },
+  {
+    "num_projects": 8,
+    "sum_projects_value": 26322869,
+    "politician_name": "Abdul Malik Bin Yusof",
+    "slug": "abdul-malik-bin-yusof",
+    "director_name": "ABDUL MALIK BIN YUSOF"
+  },
+  {
+    "num_projects": 8,
+    "sum_projects_value": 6191415,
+    "politician_name": "Abu Bakar Bin Abdullah",
+    "slug": "abu-bakar-bin-abdullah",
+    "director_name": "ABU BAKAR BIN ABDULLAH"
+  },
+  {
+    "num_projects": 8,
+    "sum_projects_value": 29121778,
+    "politician_name": "Bee Sieong Heng",
+    "slug": "bee-sieong-heng",
+    "director_name": "BEE SIEONG HENG"
+  },
+  {
+    "num_projects": 8,
+    "sum_projects_value": 65301032,
+    "politician_name": "Mat Bin Hassan",
+    "slug": "mat-bin-hassan",
+    "director_name": "MAT BIN HASSAN"
+  },
+  {
+    "num_projects": 8,
+    "sum_projects_value": 154601912,
+    "politician_name": "Sulaiman Bin Haji Abdul Razak",
+    "slug": "sulaiman-bin-haji-abdul-razak",
+    "director_name": "SULAIMAN BIN HAJI ABDUL RAZAK"
+  },
+  {
+    "num_projects": 8,
+    "sum_projects_value": 22793328,
+    "politician_name": "Wong Kok Yew",
+    "slug": "wong-kok-yew",
+    "director_name": "WONG KOK YEW"
+  },
+  {
+    "num_projects": 7,
+    "sum_projects_value": 15739010,
+    "politician_name": "Goh Kim Swee",
+    "slug": "goh-kim-swee",
+    "director_name": "GOH KIM SWEE"
+  },
+  {
+    "num_projects": 7,
+    "sum_projects_value": 2216716,
+    "politician_name": "Mohamad Bin Awang",
+    "slug": "mohamad-bin-awang",
+    "director_name": "MOHAMAD BIN AWANG"
+  },
+  {
+    "num_projects": 7,
+    "sum_projects_value": 60748143,
+    "politician_name": "Mohd Azhar Bin Jamaluddin",
+    "slug": "mohd-azhar-bin-jamaluddin",
+    "director_name": "MOHD AZHAR BIN JAMALUDDIN"
+  },
+  {
+    "num_projects": 7,
+    "sum_projects_value": 2676132,
+    "politician_name": "Mohd Bin Manuke",
+    "slug": "mohd-bin-manuke",
+    "director_name": "MOHD BIN MANUKE"
+  },
+  {
+    "num_projects": 7,
+    "sum_projects_value": 322818140,
+    "politician_name": "Nik Faisal Ariff Kamil",
+    "slug": "nik-faisal-ariff-kamil",
+    "director_name": "NIK FAISAL ARIFF KAMIL"
+  },
+  {
+    "num_projects": 7,
+    "sum_projects_value": 198700635,
+    "politician_name": "Rosli Bin Mat Hassan",
+    "slug": "rosli-bin-mat-hassan",
+    "director_name": "ROSLI BIN MAT HASSAN"
+  },
+  {
+    "num_projects": 7,
+    "sum_projects_value": 46160426,
+    "politician_name": "Zulkurnain Bin Kamisan",
+    "slug": "zulkurnain-bin-kamisan",
+    "director_name": "ZULKURNAIN BIN KAMISAN"
+  },
+  {
+    "num_projects": 6,
+    "sum_projects_value": 924117,
+    "politician_name": "Ahmad Bin Sudin",
+    "slug": "ahmad-bin-sudin",
+    "director_name": "AHMAD BIN SUDIN"
+  },
+  {
+    "num_projects": 6,
+    "sum_projects_value": 70003267,
+    "politician_name": "Ahmad Tarmizi Bin Sulaiman",
+    "slug": "ahmad-tarmizi-bin-sulaiman",
+    "director_name": "AHMAD TARMIZI BIN SULAIMAN"
+  },
+  {
+    "num_projects": 6,
+    "sum_projects_value": 5853539,
+    "politician_name": "Mohamad Yusof Bin Mohamed Yassin",
+    "slug": "mohamad-yusof-bin-mohamed-yassin",
+    "director_name": "MOHAMAD YUSOF BIN MOHAMED YASSIN"
+  },
+  {
+    "num_projects": 6,
+    "sum_projects_value": 207856,
+    "politician_name": "Othman Bin Bakar",
+    "slug": "othman-bin-bakar",
+    "director_name": "OTHMAN BIN BAKAR"
+  },
+  {
+    "num_projects": 6,
+    "sum_projects_value": 51744015,
+    "politician_name": "Radzali Bin Mokhtar",
+    "slug": "radzali-bin-mokhtar",
+    "director_name": "RADZALI BIN MOKHTAR"
+  },
+  {
+    "num_projects": 6,
+    "sum_projects_value": 33416876,
+    "politician_name": "Said Anuar Bin Said Ahmad",
+    "slug": "said-anuar-bin-said-ahmad",
+    "director_name": "SAID ANUAR BIN SAID AHMAD"
+  },
+  {
+    "num_projects": 6,
+    "sum_projects_value": 22027378,
+    "politician_name": "Terence Sinti",
+    "slug": "terence-sinti",
+    "director_name": "TERENCE SINTI"
+  },
+  {
+    "num_projects": 5,
+    "sum_projects_value": 961687,
+    "politician_name": "Alias Bin Harun",
+    "slug": "alias-bin-harun",
+    "director_name": "ALIAS BIN HARUN"
+  },
+  {
+    "num_projects": 5,
+    "sum_projects_value": 432677,
+    "politician_name": "Badrol Hisham Bin Hashim",
+    "slug": "badrol-hisham-bin-hashim",
+    "director_name": "BADROL HISHAM BIN HASHIM"
+  },
+  {
+    "num_projects": 5,
+    "sum_projects_value": 12001115,
+    "politician_name": "Ikmal Hisham Bin Abdul Aziz",
+    "slug": "ikmal-hisham-bin-abdul-aziz",
+    "director_name": "IKMAL HISHAM BIN ABDUL AZIZ"
+  },
+  {
+    "num_projects": 5,
+    "sum_projects_value": 119662812,
+    "politician_name": "Ismail Bin Nik",
+    "slug": "ismail-bin-nik",
+    "director_name": "ISMAIL BIN NIK"
+  },
+  {
+    "num_projects": 5,
+    "sum_projects_value": 29218720,
+    "politician_name": "Mansor Bin Musa",
+    "slug": "mansor-bin-musa",
+    "director_name": "MANSOR BIN MUSA"
+  },
+  {
+    "num_projects": 5,
+    "sum_projects_value": 10320500,
+    "politician_name": "Mohd Khusairi Bin Abdul Talib",
+    "slug": "mohd-khusairi-bin-abdul-talib",
+    "director_name": "MOHD KHUSAIRI BIN ABDUL TALIB"
+  },
+  {
+    "num_projects": 5,
+    "sum_projects_value": 19474244,
+    "politician_name": "Mohd Mahdi Bin Musa",
+    "slug": "mohd-mahdi-bin-musa",
+    "director_name": "MOHD MAHDI BIN MUSA"
+  },
+  {
+    "num_projects": 5,
+    "sum_projects_value": 812932,
+    "politician_name": "Zulkefli Bin Ibrahim",
+    "slug": "zulkefli-bin-ibrahim",
+    "director_name": "ZULKEFLI BIN IBRAHIM"
+  },
+  {
+    "num_projects": 4,
+    "sum_projects_value": 305693,
+    "politician_name": "Abd Rahman Bin Yunus",
+    "slug": "abd-rahman-bin-yunus",
+    "director_name": "ABD RAHMAN BIN YUNUS"
+  },
+  {
+    "num_projects": 4,
+    "sum_projects_value": 118073548,
+    "politician_name": "Abdul Aziz Bin Hassan",
+    "slug": "abdul-aziz-bin-hassan",
+    "director_name": "ABDUL AZIZ BIN HASSAN"
+  },
+  {
+    "num_projects": 4,
+    "sum_projects_value": 85000,
+    "politician_name": "Ahmad Bin Said",
+    "slug": "ahmad-bin-said",
+    "director_name": "AHMAD BIN SAID"
+  },
+  {
+    "num_projects": 4,
+    "sum_projects_value": 27907480,
+    "politician_name": "Aimi Bin Jusoh",
+    "slug": "aimi-bin-jusoh",
+    "director_name": "AIMI BIN JUSOH"
+  },
+  {
+    "num_projects": 4,
+    "sum_projects_value": 2565900,
+    "politician_name": "Cheah Chee Kuan",
+    "slug": "cheah-chee-kuan",
+    "director_name": "CHEAH CHEE KUAN"
+  },
+  {
+    "num_projects": 4,
+    "sum_projects_value": 8597153,
+    "politician_name": "Chong Eng",
+    "slug": "chong-eng",
+    "director_name": "CHONG ENG"
+  },
+  {
+    "num_projects": 4,
+    "sum_projects_value": 68104187,
+    "politician_name": "Dali Bin Husin",
+    "slug": "dali-bin-husin",
+    "director_name": "DALI BIN HUSIN"
+  },
+  {
+    "num_projects": 4,
+    "sum_projects_value": 225886525,
+    "politician_name": "Datu Amir Kahar Bin Datu Mustapha",
+    "slug": "datu-amir-kahar-bin-datu-mustapha",
+    "director_name": "DATU AMIR KAHAR BIN DATU MUSTAPHA"
+  },
+  {
+    "num_projects": 4,
+    "sum_projects_value": 3945171,
+    "politician_name": "Edward Dagul",
+    "slug": "edward-dagul",
+    "director_name": "EDWARD DAGUL"
+  },
+  {
+    "num_projects": 4,
+    "sum_projects_value": 197474115,
+    "politician_name": "Hamisa Binti Samat",
+    "slug": "hamisa-binti-samat",
+    "director_name": "HAMISA BINTI SAMAT"
+  },
+  {
+    "num_projects": 4,
+    "sum_projects_value": 4911560,
+    "politician_name": "Lee Boon Kok",
+    "slug": "lee-boon-kok",
+    "director_name": "LEE BOON KOK"
+  },
+  {
+    "num_projects": 4,
+    "sum_projects_value": 11645228,
+    "politician_name": "Mansor Bin Salleh",
+    "slug": "mansor-bin-salleh",
+    "director_name": "MANSOR BIN SALLEH"
+  },
+  {
+    "num_projects": 4,
+    "sum_projects_value": 144571,
+    "politician_name": "Mohd Adhan Bin Kechik",
+    "slug": "mohd-adhan-bin-kechik",
+    "director_name": "MOHD ADHAN BIN KECHIK"
+  },
+  {
+    "num_projects": 4,
+    "sum_projects_value": 436685586,
+    "politician_name": "Najmuddin Bin Darus",
+    "slug": "najmuddin-bin-darus",
+    "director_name": "NAJMUDDIN BIN DARUS"
+  },
+  {
+    "num_projects": 4,
+    "sum_projects_value": 988244,
+    "politician_name": "Rohani Binti Ibrahim",
+    "slug": "rohani-binti-ibrahim",
+    "director_name": "ROHANI BINTI IBRAHIM"
+  },
+  {
+    "num_projects": 4,
+    "sum_projects_value": 65348211,
+    "politician_name": "Rusnah Binti Kassim",
+    "slug": "rusnah-binti-kassim",
+    "director_name": "RUSNAH BINTI KASSIM"
+  },
+  {
+    "num_projects": 4,
+    "sum_projects_value": 24820573,
+    "politician_name": "Saipolbahari Bin Suib",
+    "slug": "saipolbahari-bin-suib",
+    "director_name": "SAIPOLBAHARI BIN SUIB"
+  },
+  {
+    "num_projects": 4,
+    "sum_projects_value": 3945171,
+    "politician_name": "Stephan Bin Gaimin",
+    "slug": "stephan-bin-gaimin",
+    "director_name": "STEPHAN BIN GAIMIN"
+  },
+  {
+    "num_projects": 4,
+    "sum_projects_value": 11039045,
+    "politician_name": "Tan Ken Ten",
+    "slug": "tan-ken-ten",
+    "director_name": "TAN KEN TEN"
+  },
+  {
+    "num_projects": 4,
+    "sum_projects_value": 4705843,
+    "politician_name": "Yong Oui Fah",
+    "slug": "yong-oui-fah",
+    "director_name": "YONG OUI FAH"
+  },
+  {
+    "num_projects": 4,
+    "sum_projects_value": 24041423,
+    "politician_name": "Zainal Bin Nasiruddin",
+    "slug": "zainal-bin-nasiruddin",
+    "director_name": "ZAINAL BIN NASIRUDDIN"
+  },
+  {
+    "num_projects": 3,
+    "sum_projects_value": 1851738,
+    "politician_name": "Ahmad Jazlan Bin Yaakub",
+    "slug": "ahmad-jazlan-bin-yaakub",
+    "director_name": "AHMAD JAZLAN BIN YAAKUB"
+  },
+  {
+    "num_projects": 3,
+    "sum_projects_value": 134227,
+    "politician_name": "Azan Bin Ismail",
+    "slug": "azan-bin-ismail",
+    "director_name": "AZAN BIN ISMAIL"
+  },
+  {
+    "num_projects": 3,
+    "sum_projects_value": 16979549,
+    "politician_name": "Che Jalal Bin Muda",
+    "slug": "che-jalal-bin-muda",
+    "director_name": "CHE JALAL BIN MUDA"
+  },
+  {
+    "num_projects": 3,
+    "sum_projects_value": 7330782,
+    "politician_name": "Donald Lawan",
+    "slug": "donald-lawan",
+    "director_name": "DONALD LAWAN"
+  },
+  {
+    "num_projects": 3,
+    "sum_projects_value": 56844194,
+    "politician_name": "Ismail Bin Kasim",
+    "slug": "ismail-bin-kasim",
+    "director_name": "ISMAIL BIN KASIM"
+  },
+  {
+    "num_projects": 3,
+    "sum_projects_value": 3349500,
+    "politician_name": "Ismail Bin Mohamed",
+    "slug": "ismail-bin-mohamed",
+    "director_name": "ISMAIL BIN MOHAMED"
+  },
+  {
+    "num_projects": 3,
+    "sum_projects_value": 8304108,
+    "politician_name": "Mohd Afandi Bin Yusoff",
+    "slug": "mohd-afandi-bin-yusoff",
+    "director_name": "MOHD AFANDI BIN YUSOFF"
+  },
+  {
+    "num_projects": 3,
+    "sum_projects_value": 1916900,
+    "politician_name": "Mohd Zain Bin Ahmad",
+    "slug": "mohd-zain-bin-ahmad",
+    "director_name": "MOHD ZAIN BIN AHMAD"
+  },
+  {
+    "num_projects": 3,
+    "sum_projects_value": 9619241,
+    "politician_name": "Mustapa Bin Mohamed",
+    "slug": "mustapa-bin-mohamed",
+    "director_name": "MUSTAPA BIN MOHAMED"
+  },
+  {
+    "num_projects": 3,
+    "sum_projects_value": 59975,
+    "politician_name": "Mutang @ Sylvester Bin Dawat",
+    "slug": "mutang-sylvester-bin-dawat",
+    "director_name": "MUTANG @ SYLVESTER BIN DAWAT"
+  },
+  {
+    "num_projects": 3,
+    "sum_projects_value": 17960000,
+    "politician_name": "Ong Thean Lye",
+    "slug": "ong-thean-lye",
+    "director_name": "ONG THEAN LYE"
+  },
+  {
+    "num_projects": 3,
+    "sum_projects_value": 46395000,
+    "politician_name": "Philip Benedict Lasimbang",
+    "slug": "philip-benedict-lasimbang",
+    "director_name": "PHILIP BENEDICT LASIMBANG"
+  },
+  {
+    "num_projects": 3,
+    "sum_projects_value": 13549191,
+    "politician_name": "Saravanan A/L Murugan",
+    "slug": "saravanan-a-l-murugan",
+    "director_name": "SARAVANAN A/L MURUGAN"
+  },
+  {
+    "num_projects": 3,
+    "sum_projects_value": 10087682,
+    "politician_name": "Sharudin Bin Ahmad",
+    "slug": "sharudin-bin-ahmad",
+    "director_name": "SHARUDIN BIN AHMAD"
+  },
+  {
+    "num_projects": 3,
+    "sum_projects_value": 5933804,
+    "politician_name": "Suhaimi Bin Hashim",
+    "slug": "suhaimi-bin-hashim",
+    "director_name": "SUHAIMI BIN HASHIM"
+  },
+  {
+    "num_projects": 3,
+    "sum_projects_value": 10506797,
+    "politician_name": "Wan Kadri Bin Wan Mahusain",
+    "slug": "wan-kadri-bin-wan-mahusain",
+    "director_name": "WAN KADRI BIN WAN MAHUSAIN"
+  },
+  {
+    "num_projects": 3,
+    "sum_projects_value": 12702345,
+    "politician_name": "Zubir Bin Ahmad",
+    "slug": "zubir-bin-ahmad",
+    "director_name": "ZUBIR BIN AHMAD"
+  },
+  {
+    "num_projects": 2,
+    "sum_projects_value": 7483767,
+    "politician_name": "Abdul Aziz Bin Derashid",
+    "slug": "abdul-aziz-bin-derashid",
+    "director_name": "ABDUL AZIZ BIN DERASHID"
+  },
+  {
+    "num_projects": 2,
+    "sum_projects_value": 1853487,
+    "politician_name": "Ibrahim Bin Yaacob",
+    "slug": "ibrahim-bin-yaacob",
+    "director_name": "IBRAHIM BIN YAACOB"
+  },
+  {
+    "num_projects": 2,
+    "sum_projects_value": 5201870,
+    "politician_name": "Ismail Bin Othman",
+    "slug": "ismail-bin-othman",
+    "director_name": "ISMAIL BIN OTHMAN"
+  },
+  {
+    "num_projects": 2,
+    "sum_projects_value": 28180000,
+    "politician_name": "Lee Ching Yong",
+    "slug": "lee-ching-yong",
+    "director_name": "LEE CHING YONG"
+  },
+  {
+    "num_projects": 2,
+    "sum_projects_value": 1547634,
+    "politician_name": "Lim Pek Har",
+    "slug": "lim-pek-har",
+    "director_name": "LIM PEK HAR"
+  },
+  {
+    "num_projects": 2,
+    "sum_projects_value": 13906788,
+    "politician_name": "Mat Yusoff Bin Abdul Ghani",
+    "slug": "mat-yusoff-bin-abdul-ghani",
+    "director_name": "MAT YUSOFF BIN ABDUL GHANI"
+  },
+  {
+    "num_projects": 2,
+    "sum_projects_value": 7620900,
+    "politician_name": "Mohd Jamal Bin Nasir",
+    "slug": "mohd-jamal-bin-nasir",
+    "director_name": "MOHD JAMAL BIN NASIR"
+  },
+  {
+    "num_projects": 2,
+    "sum_projects_value": 685664,
+    "politician_name": "Mohd Nasir Bin Hashim",
+    "slug": "mohd-nasir-bin-hashim",
+    "director_name": "MOHD NASIR BIN HASHIM"
+  },
+  {
+    "num_projects": 2,
+    "sum_projects_value": 181800,
+    "politician_name": "Mohd Zan Bin Abu",
+    "slug": "mohd-zan-bin-abu",
+    "director_name": "MOHD ZAN BIN ABU"
+  },
+  {
+    "num_projects": 2,
+    "sum_projects_value": 24333000,
+    "politician_name": "Mohd Zolkafly Bin Harun",
+    "slug": "mohd-zolkafly-bin-harun",
+    "director_name": "MOHD ZOLKAFLY BIN HARUN"
+  },
+  {
+    "num_projects": 2,
+    "sum_projects_value": 8396465,
+    "politician_name": "Muhammad Pehimi Bin Yusof",
+    "slug": "muhammad-pehimi-bin-yusof",
+    "director_name": "MUHAMMAD PEHIMI BIN YUSOF"
+  },
+  {
+    "num_projects": 2,
+    "sum_projects_value": 203276,
+    "politician_name": "Natrah Binti Ismail",
+    "slug": "natrah-binti-ismail",
+    "director_name": "NATRAH BINTI ISMAIL"
+  },
+  {
+    "num_projects": 2,
+    "sum_projects_value": 131915,
+    "politician_name": "Nik Noriza Binti Nik Salleh",
+    "slug": "nik-noriza-binti-nik-salleh",
+    "director_name": "NIK NORIZA BINTI NIK SALLEH"
+  },
+  {
+    "num_projects": 2,
+    "sum_projects_value": 18204612,
+    "politician_name": "Norhayati Binti Omar",
+    "slug": "norhayati-binti-omar",
+    "director_name": "NORHAYATI BINTI OMAR"
+  },
+  {
+    "num_projects": 2,
+    "sum_projects_value": 59094448,
+    "politician_name": "Ronald Kiandee",
+    "slug": "ronald-kiandee",
+    "director_name": "RONALD KIANDEE"
+  },
+  {
+    "num_projects": 2,
+    "sum_projects_value": 19396000,
+    "politician_name": "Rosli Bin Ibrahim",
+    "slug": "rosli-bin-ibrahim",
+    "director_name": "ROSLI BIN IBRAHIM"
+  },
+  {
+    "num_projects": 2,
+    "sum_projects_value": 98803424,
+    "politician_name": "Tajuddin Bin Abdul Rahman",
+    "slug": "tajuddin-bin-abdul-rahman",
+    "director_name": "TAJUDDIN BIN ABDUL RAHMAN"
+  },
+  {
+    "num_projects": 2,
+    "sum_projects_value": 808244,
+    "politician_name": "Tan Chai Ho",
+    "slug": "tan-chai-ho",
+    "director_name": "TAN CHAI HO"
+  },
+  {
+    "num_projects": 2,
+    "sum_projects_value": 698540,
+    "politician_name": "Teh Kim Poo",
+    "slug": "teh-kim-poo",
+    "director_name": "TEH KIM POO"
+  },
+  {
+    "num_projects": 2,
+    "sum_projects_value": 11861236,
+    "politician_name": "Teh Leong Meng",
+    "slug": "teh-leong-meng",
+    "director_name": "TEH LEONG MENG"
+  },
+  {
+    "num_projects": 2,
+    "sum_projects_value": 1795991,
+    "politician_name": "Tiong Thai King",
+    "slug": "tiong-thai-king",
+    "director_name": "TIONG THAI KING"
+  },
+  {
+    "num_projects": 2,
+    "sum_projects_value": 6257535,
+    "politician_name": "Tuan Mustaffa Bin Tuan Mat",
+    "slug": "tuan-mustaffa-bin-tuan-mat",
+    "director_name": "TUAN MUSTAFFA BIN TUAN MAT"
+  },
+  {
+    "num_projects": 2,
+    "sum_projects_value": 38037094,
+    "politician_name": "Wong Yit Ming",
+    "slug": "wong-yit-ming",
+    "director_name": "WONG YIT MING"
+  },
+  {
+    "num_projects": 2,
+    "sum_projects_value": 73130,
+    "politician_name": "Yap Yew Weng",
+    "slug": "yap-yew-weng",
+    "director_name": "YAP YEW WENG"
+  },
+  {
+    "num_projects": 1,
+    "sum_projects_value": 44902600,
+    "politician_name": "Abdul Ghafar Bin Atan",
+    "slug": "abdul-ghafar-bin-atan",
+    "director_name": "ABDUL GHAFAR BIN ATAN"
+  },
+  {
+    "num_projects": 1,
+    "sum_projects_value": 3318880,
+    "politician_name": "Abu Hasan Bin Sarif",
+    "slug": "abu-hasan-bin-sarif",
+    "director_name": "ABU HASAN BIN SARIF"
+  },
+  {
+    "num_projects": 1,
+    "sum_projects_value": 15171000,
+    "politician_name": "Azizan Bin Abdul Razak",
+    "slug": "azizan-bin-abdul-razak",
+    "director_name": "AZIZAN BIN ABDUL RAZAK"
+  },
+  {
+    "num_projects": 1,
+    "sum_projects_value": 554070,
+    "politician_name": "Chong Seng Foo",
+    "slug": "chong-seng-foo",
+    "director_name": "CHONG SENG FOO"
+  },
+  {
+    "num_projects": 1,
+    "sum_projects_value": 2472000,
+    "politician_name": "Hasiman Bin Sidom",
+    "slug": "hasiman-bin-sidom",
+    "director_name": "HASIMAN BIN SIDOM"
+  },
+  {
+    "num_projects": 1,
+    "sum_projects_value": 222915,
+    "politician_name": "Ismail Bin Daut",
+    "slug": "ismail-bin-daut",
+    "director_name": "ISMAIL BIN DAUT"
+  },
+  {
+    "num_projects": 1,
+    "sum_projects_value": 5079519,
+    "politician_name": "Liew Pok Boon",
+    "slug": "liew-pok-boon",
+    "director_name": "LIEW POK BOON"
+  },
+  {
+    "num_projects": 1,
+    "sum_projects_value": 2695000,
+    "politician_name": "Lim Fook Hin",
+    "slug": "lim-fook-hin",
+    "director_name": "LIM FOOK HIN"
+  },
+  {
+    "num_projects": 1,
+    "sum_projects_value": 6350,
+    "politician_name": "Maijol Bin Mahap",
+    "slug": "maijol-bin-mahap",
+    "director_name": "MAIJOL BIN MAHAP"
+  },
+  {
+    "num_projects": 1,
+    "sum_projects_value": 803953,
+    "politician_name": "Mohamad Bin Alamin",
+    "slug": "mohamad-bin-alamin",
+    "director_name": "MOHAMAD BIN ALAMIN"
+  },
+  {
+    "num_projects": 1,
+    "sum_projects_value": 28386978,
+    "politician_name": "Mohd Arifin B Mohd Arif",
+    "slug": "mohd-arifin-b-mohd-arif",
+    "director_name": "MOHD ARIFIN B MOHD ARIF"
+  },
+  {
+    "num_projects": 1,
+    "sum_projects_value": 17950,
+    "politician_name": "Mohd Shukri Bin Ramli",
+    "slug": "mohd-shukri-bin-ramli",
+    "director_name": "MOHD SHUKRI BIN RAMLI"
+  },
+  {
+    "num_projects": 1,
+    "sum_projects_value": 669000,
+    "politician_name": "Mohd Zawawi Bin Abu Hassan",
+    "slug": "mohd-zawawi-bin-abu-hassan",
+    "director_name": "MOHD ZAWAWI BIN ABU HASSAN"
+  },
+  {
+    "num_projects": 1,
+    "sum_projects_value": 36910000,
+    "politician_name": "Ong Tang Chuan",
+    "slug": "ong-tang-chuan",
+    "director_name": "ONG TANG CHUAN"
+  },
+  {
+    "num_projects": 1,
+    "sum_projects_value": 1300030,
+    "politician_name": "Raymond Bin Ahuar",
+    "slug": "raymond-bin-ahuar",
+    "director_name": "RAYMOND BIN AHUAR"
+  },
+  {
+    "num_projects": 1,
+    "sum_projects_value": 44000,
+    "politician_name": "Redzuan Bin Stapha",
+    "slug": "redzuan-bin-stapha",
+    "director_name": "REDZUAN BIN STAPHA"
+  },
+  {
+    "num_projects": 1,
+    "sum_projects_value": 5705523,
+    "politician_name": "Ridzuan Bin Ismail",
+    "slug": "ridzuan-bin-ismail",
+    "director_name": "RIDZUAN BIN ISMAIL"
+  },
+  {
+    "num_projects": 1,
+    "sum_projects_value": 370000,
+    "politician_name": "Rosli Bin Othman",
+    "slug": "rosli-bin-othman",
+    "director_name": "ROSLI BIN OTHMAN"
+  },
+  {
+    "num_projects": 1,
+    "sum_projects_value": 422395,
+    "politician_name": "Rosman Bin Jonet",
+    "slug": "rosman-bin-jonet",
+    "director_name": "ROSMAN BIN JONET"
+  },
+  {
+    "num_projects": 1,
+    "sum_projects_value": 135675,
+    "politician_name": "Rusli Bin Baba",
+    "slug": "rusli-bin-baba",
+    "director_name": "RUSLI BIN BABA"
+  },
+  {
+    "num_projects": 1,
+    "sum_projects_value": 36250,
+    "politician_name": "Shahfie Bin Ahmad",
+    "slug": "shahfie-bin-ahmad",
+    "director_name": "SHAHFIE BIN AHMAD"
+  },
+  {
+    "num_projects": 1,
+    "sum_projects_value": 3757260,
+    "politician_name": "Sim Chee Keong",
+    "slug": "sim-chee-keong",
+    "director_name": "SIM CHEE KEONG"
+  },
+  {
+    "num_projects": 1,
+    "sum_projects_value": 38170,
+    "politician_name": "Suhaimi Bin Salleh",
+    "slug": "suhaimi-bin-salleh",
+    "director_name": "SUHAIMI BIN SALLEH"
+  },
+  {
+    "num_projects": 1,
+    "sum_projects_value": 1413531,
+    "politician_name": "Sulaiman Bin Md Ali",
+    "slug": "sulaiman-bin-md-ali",
+    "director_name": "SULAIMAN BIN MD ALI"
+  },
+  {
+    "num_projects": 1,
+    "sum_projects_value": 34908,
+    "politician_name": "Tan Ah Bee",
+    "slug": "tan-ah-bee",
+    "director_name": "TAN AH BEE"
+  },
+  {
+    "num_projects": 1,
+    "sum_projects_value": 566196,
+    "politician_name": "Tan Ah Kow",
+    "slug": "tan-ah-kow",
+    "director_name": "TAN AH KOW"
+  },
+  {
+    "num_projects": 1,
+    "sum_projects_value": 2695000,
+    "politician_name": "Tan Aik Yong",
+    "slug": "tan-aik-yong",
+    "director_name": "TAN AIK YONG"
+  },
+  {
+    "num_projects": 1,
+    "sum_projects_value": 0,
+    "politician_name": "Tan Kok Wai",
+    "slug": "tan-kok-wai",
+    "director_name": "TAN KOK WAI"
+  },
+  {
+    "num_projects": 1,
+    "sum_projects_value": 8500000,
+    "politician_name": "Teh Kok Lim",
+    "slug": "teh-kok-lim",
+    "director_name": "TEH KOK LIM"
+  },
+  {
+    "num_projects": 1,
+    "sum_projects_value": 4546000,
+    "politician_name": "Teo Eng Siong",
+    "slug": "teo-eng-siong",
+    "director_name": "TEO ENG SIONG"
+  },
+  {
+    "num_projects": 1,
+    "sum_projects_value": 952000,
+    "politician_name": "Tham Weng Fatt",
+    "slug": "tham-weng-fatt",
+    "director_name": "THAM WENG FATT"
+  },
+  {
+    "num_projects": 1,
+    "sum_projects_value": 37500000,
+    "politician_name": "Wan Ahmad Nizam Bin Wan Abdul Hamid",
+    "slug": "wan-ahmad-nizam-bin-wan-abdul-hamid",
+    "director_name": "WAN AHMAD NIZAM BIN WAN ABDUL HAMID"
+  },
+  {
+    "num_projects": 1,
+    "sum_projects_value": 3258530,
+    "politician_name": "Wan Mokhtar Bin Wan Ibrahim",
+    "slug": "wan-mokhtar-bin-wan-ibrahim",
+    "director_name": "WAN MOKHTAR BIN WAN IBRAHIM"
+  }
+]
