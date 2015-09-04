@@ -9,6 +9,11 @@
   z-index: 900;
 }
 
+.nowrap {
+  white-space: nowrap;
+}
+
+
 
 .mdl-layout-title a {
     text-decoration: none;
