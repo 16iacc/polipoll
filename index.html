@@ -29,7 +29,7 @@
       <div class="header mdl-layout__header mdl-layout__header--waterfall">
         <div class="mdl-layout__header-row">
           <span class="mdl-layout-title">
-            My Stars
+            <a href="/">My Stars</a>
           </span>
           <!-- Add spacer, to align navigation to the right in desktop -->
           <div class="mdl-layout-spacer"></div>
@@ -125,15 +125,15 @@
                         <td class="votes mdl-data-table__cell--non-numeric">
 
                           <div class="buttons" style="">
-                            <button data-vote="green" class="chart_green mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                            <button data-vote="green" class="green mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
                                Confirm <span class="icon material-icons">ic_thumb_up</span>
                             </button><br/>
 
-                            <button data-vote="yellow" class="chart_yellow mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                            <button data-vote="yellow" class="yellow mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
                                Don't know <span class="icon material-icons">ic_help_outline</span>
                             </button><br/>
 
-                            <button data-vote="red" class="chart_red mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                            <button data-vote="red" class="red mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
                                Not him/her <span class="icon material-icons">ic_thumb_down</span>
                             </button>
 
@@ -145,12 +145,12 @@
 
                           <div class="result" style="display:block;">
 
-                            <div class="chart"><span class="chart_green"></span><span class="chart_yellow"></span><span class="chart_red"></span></div>
+                            <div class="chart"><span class="green"></span><span class="yellow"></span><span class="red"></span></div>
 
                             <p>
-                              Confirmed: <span class="right_perc">-</span><br/>
-                              Don't know: <span class="dontknow_perc">-</span> <br/>
-                              Not him/her: <span class="wrong_perc">-</span>
+                              Confirmed: <span class="green_perc">-</span><br/>
+                              Don't know: <span class="yellow_perc">-</span> <br/>
+                              Not him/her: <span class="red_perc">-</span>
                             </p>
 
                           </div>

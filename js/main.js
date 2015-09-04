@@ -33,9 +33,14 @@ function showResult(company_id) {
     var yellow_perc = (votes.yellow || 0) / total * 100;
     var red_perc = (votes.red || 0) / total * 100;
 
-    $(".companies .c_"+company_id+" .chart_green").css("width", green_perc + "%");
-    $(".companies .c_"+company_id+" .chart_yellow").css("width", yellow_perc + "%");
-    $(".companies .c_"+company_id+" .chart_red").css("width", red_perc + "%");
+    $(".companies .c_"+company_id+" .chart .green").css("width", green_perc + "%");
+    $(".companies .c_"+company_id+" .chart .yellow").css("width", yellow_perc + "%");
+    $(".companies .c_"+company_id+" .chart .red").css("width", red_perc + "%");
+
+    $(".companies .c_"+company_id+" .green_perc").text(green_perc.toPrecision(4) + "%");
+    $(".companies .c_"+company_id+" .yellow_perc").text(yellow_perc.toPrecision(4) + "%");
+    $(".companies .c_"+company_id+" .red_perc").text(red_perc.toPrecision(4) + "%");
+
 
   });
 
@@ -160,6 +165,9 @@ function showPoliticianData() {
 }
 
 
+function numberWithCommas(x) {
+  return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
 
 
 function showPoliticianData() {
@@ -199,6 +207,7 @@ function showPoliticianData() {
   });
 
   makeMap("companyLocations", locations);
+  $(".companies tr").not(".model").remove();
 
   for(var idx in politician.contractors){
     //use cont_id as primary_key
@@ -219,7 +228,7 @@ function showPoliticianData() {
     console.log(company_name, director_name, speciality);
 
     var num_projects = contractor.num_projects;
-    var sum_projects_value = contractor.sum_projects_value;
+    var sum_projects_value = numberWithCommas(contractor.sum_projects_value || 0);
 
     //$(".certainty").text(certainty);
     $(element).data("company_id", company_id);
