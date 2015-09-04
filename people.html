@@ -15,11 +15,12 @@
 
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/datatables.min.css">
+    <link rel="stylesheet" href="css/main.css">
     <script src="js/jquery-1.11.3.min.js"></script>
+
     <!-- <script src="https://cdn.firebase.com/js/client/2.2.9/firebase.js"></script> -->
     <script src="js/datatables.min.js"></script>
-    <script src="js/main.js"></script>
-
+    <script src="js/politiciantable.js"></script>
 
   </head>
   <body>
@@ -45,47 +46,35 @@
         </div>
       </div>
 
+
+      <div class="mdl-tooltip" for="btnPlay">
+       Start to play
+      </div>
+
       <div class="header-ribbon mdl-color--grey-100"></div>
 
       <main class="main mdl-layout__content">
 
-        <div class="container mdl-color--grey-100 mdl-grid">
-
-          <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+        <div class="container mdl-grid">
 
 
+          <div class="mdl-grid mdl-card mdl-color--white mdl-shadow--4dp mdl-color-text--grey-800 mdl-cell--8-col">
 
+          <h3>Politician & Director Matches</h3>
 
+          <table class="mdl-data-table">
+            <thead>
+              <tr>
+                <th>Politician Name</th>
+                <th>Director Name</th>
+                <th># Directorships</th>
+                <th>Total Award</th>
+              </tr>
+            </thead>
+            <tbody class="companies"></tbody>
+          </table>
+          </div>
 
-              <table class="" id="datatable">
-                <thead>
-                  <tr>
-                    <th>ID</th>
-                    <th>Politician Name</th>
-                    <th>Director Name</th>
-                    <th># Directorships</th>
-                  </tr>
-                </thead>
-                <tbody class="companies">
-                  <tr>
-                    <td class="mdl-data-table__cell--non-numeric">25</td>
-                    <td class="mdl-data-table__cell--non-numeric">Johnny 5</td>
-                    <td class="mdl-data-table__cell--non-numeric">John Five</td>
-                    <td class="mdl-data-table__cell--non-numeric">4</td>
-                  </tr>
-                  <tr>
-                    <td class="mdl-data-table__cell--non-numeric">26</td>
-                    <td class="mdl-data-table__cell--non-numeric">Wall-e</td>
-                    <td class="mdl-data-table__cell--non-numeric">Wall-E</td>
-                    <td class="mdl-data-table__cell--non-numeric">6</td>
-                  </tr>
-                </tbody>
-              </table>
-
-
-
-
-        </div>
         </div>
       </main>
 
@@ -99,11 +88,7 @@
       </footer>
 
       <div class="mdl-layout__obfuscator"></div>
-
-
-
     </div>
-
 
   </body>
 </html>
