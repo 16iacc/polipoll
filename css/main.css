@@ -75,12 +75,16 @@
   padding: 8px 0;
 }
 
+
 .companies .votes {
   width: 150px;
 }
 .companies button {
   width: 100%;
   margin-bottom: 10px;
+}
+.companies .result {
+  display: none;
 }
 
 
