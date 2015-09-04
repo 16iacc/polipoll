@@ -98,9 +98,7 @@ function showPoliticianData() {
 function showPoliticianData() {
   console.log("showPoliticianData", politician);
   $(".politician_name").text(politician.name);
-  //$(".politician_name").text(politician.politician_name);
   $(".politician_summary").text(politician.summary || "");
-  //$(".politician_summary").text(politician.summary);
 
   if (politician.image) {
     $(".politician-photo").css("background-image", "url("+politician.image+")");
@@ -108,26 +106,40 @@ function showPoliticianData() {
     $(".politician-photo").css("background-image", "");
   }
 
-  for(var company_id in politician.companies){
-    console.log(company_id);
+  for(var idx in politician.contractors){
+    //use cont_id as primary_key
+    var element = $(".companies .model").clone();
+    $(element).removeClass("model");
+    var contractor = politician.contractors[idx];
+    console.log("COMPANY ", idx, contractor);
+
     //.matches table tbody
     //TODO: fullfill the table of matches
 
-    var certainty = (100.0 * parseFloat(politician.companies[company_id].certainty)).toPrecision(4);
-    var company_name = politician.companies[company_id].company_name;
-    var director_name = politician.companies[company_id].director_name;
-    var project_count = politician.companies[company_id].project_count;
-    var project_sum = politician.companies[company_id].project_sum;
-    var projects = politician.companies[company_id].projects;
+    //var certainty = (100.0 * parseFloat(politician.companies[idx].certainty)).toPrecision(4);
+    var company_name = contractor.company;
+    var director_name = contractor.director_name;
+    var speciality = contractor.cidb_pengkhususan;
 
-    $(".certainty").text(certainty);
-    $(".company_name").text(company_name);
-    $(".director_name").text(director_name);
-    $(".project_count").text(project_count);
-    $(".project_sum").text(project_sum);
+    console.log(company_name, director_name, speciality);
 
-    setVotesClick();
+    //var project_count = contractor.project_count;
+    //var project_sum = contractor.project_sum;
+
+    //$(".certainty").text(certainty);
+    $(element).find(".company_name").text(company_name);
+    $(element).find(".director_name").text(director_name);
+    //$(element).find(".project_count").text(project_count);
+    //$(element).find(".project_sum").text(project_sum);
+    $(element).find(".speciality").text(speciality);
+    $(element).show();
+
+    $(".companies").append(element);
+
   }
+  $(".companies .model").hide();
+  setVotesClick();
+
   $(".matches, .vote").show();
   $(".loading").hide();
   $(".companies .votes .buttons").show();
