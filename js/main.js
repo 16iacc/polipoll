@@ -14,13 +14,80 @@ window.onhashchange = function()
   loadPolitician(location.hash.substring(1));
 }
 
+function showResult(company_id) {
+
+  $(".companies .c_"+company_id+" .votes .buttons").hide();
+  $(".companies .c_"+company_id+" .votes .waiting").hide();
+  $(".companies .c_"+company_id+" .votes .result").show();
+
+
+  //TODO: show graphics
+  fbPP = new Firebase(FIREBASE_ROOT + "votes/"+politician_slug+"/"+company_id);
+  fbPP.once("value", function(snapshot){
+    var votes = snapshot.val();
+    var total = (votes.green || 0) + (votes.yellow || 0) + (votes.red || 0);
+
+    console.log("votes", votes, total);
+
+    var green_perc = (votes.green || 0) / total * 100;
+    var yellow_perc = (votes.yellow || 0) / total * 100;
+    var red_perc = (votes.red || 0) / total * 100;
+
+    $(".companies .c_"+company_id+" .chart_green").css("width", green_perc + "%");
+    $(".companies .c_"+company_id+" .chart_yellow").css("width", yellow_perc + "%");
+    $(".companies .c_"+company_id+" .chart_red").css("width", red_perc + "%");
+
+  });
+
+
+
+
+}
+
+function addVote(politician_slug, company_id, vote) {
+  //TODO: save vote into Firebase
+
+  //"votes/[politician_slug]/[company_id]/[vote_value]"
+  fbPP = new Firebase(FIREBASE_ROOT + "votes/"+politician_slug+"/"+company_id+"/"+vote);
+  // Try to create a user for wilma, but only if the user id 'wilma' isn't already taken
+
+  fbPP.transaction(function(currentData) {
+    if (currentData === null) {
+      return 1;
+    } else {
+      console.log('Got data, add +1');
+      return currentData+1; // Abort the transaction.
+    }
+  }, function(error, committed, snapshot) {
+    if (error) {
+      console.log('Transaction failed abnormally!', error);
+    } else if (!committed) {
+      console.log('Value added!');
+      showResult(company_id);
+    } else {
+      console.log('New vote added!');
+      showResult(company_id);
+    }
+    console.log("VOTE: ", snapshot.val());
+
+  });
+
+}
 
 function setVotesClick(){
   $(".companies .mdl-button").click(function(e){
     e.preventDefault();
-    $(".companies .votes .buttons").hide();
-    $(".companies .votes .waiting").hide();
-    $(".companies .votes .result").show();
+
+    var company_id = $(this).parents("tr").data("company_id");
+    var vote = $(this).data("vote");
+
+    console.log("company_id", company_id, vote);
+    addVote(politician_slug, company_id, vote);
+
+    $(".companies .c_"+company_id+" .votes .buttons").hide();
+    $(".companies .c_"+company_id+" .votes .waiting").show();
+    $(".companies .c_"+company_id+" .votes .result").hide();
+
   });
 }
 
@@ -51,7 +118,7 @@ function loadPoliticianData(politician_id) {
 
   });
 }
-
+*/
 
 function showPoliticianData() {
   console.log("showPoliticianData", politician);
@@ -91,7 +158,7 @@ function showPoliticianData() {
   $(".companies .votes .result").hide();
 
 }
-*/
+
 
 
 
@@ -117,20 +184,24 @@ function showPoliticianData() {
     //TODO: fullfill the table of matches
 
     //var certainty = (100.0 * parseFloat(politician.companies[idx].certainty)).toPrecision(4);
+    var company_id = contractor.cont_id;
     var company_name = contractor.company;
     var director_name = contractor.director_name;
     var speciality = contractor.cidb_pengkhususan;
 
     console.log(company_name, director_name, speciality);
 
-    //var project_count = contractor.project_count;
-    //var project_sum = contractor.project_sum;
+    var num_projects = contractor.num_projects;
+    var sum_projects_value = contractor.sum_projects_value;
 
     //$(".certainty").text(certainty);
-    $(element).find(".company_name").text(company_name);
+    $(element).data("company_id", company_id);
+    $(element).addClass("c_" + company_id);
+
+    $(element).find(".company_name").text(company_name == "" ? "***EMPTY***" : company_name);
     $(element).find(".director_name").text(director_name);
-    //$(element).find(".project_count").text(project_count);
-    //$(element).find(".project_sum").text(project_sum);
+    $(element).find(".num_projects").text(num_projects);
+    $(element).find(".sum_projects_value").text(sum_projects_value);
     $(element).find(".speciality").text(speciality);
     $(element).show();
 
@@ -142,6 +213,8 @@ function showPoliticianData() {
 
   $(".matches, .vote").show();
   $(".loading").hide();
+
+  //TODO: review this
   $(".companies .votes .buttons").show();
   $(".companies .votes .waiting").hide();
   $(".companies .votes .result").hide();
@@ -149,7 +222,7 @@ function showPoliticianData() {
 }
 
 
-
+/*
 function loadPoliticianFirebase(id) {
   $(".loading").fadeIn();
   $(".politician_name").text("");
@@ -175,12 +248,17 @@ function loadPoliticianFirebase(id) {
   });
 
 }
+*/
+
+
 function loadPolitician(slug) {
   $(".loading").fadeIn();
   $(".politician_name").text("");
   $(".politician_summary").text("");
   $(".politician-photo").css("background-image", "");
   $(".matches, .vote").hide();
+
+  //TODO: review this
   $(".companies .votes .buttons").show();
   $(".companies .votes .waiting").hide();
   $(".companies .votes .result").hide();
@@ -194,19 +272,10 @@ function loadPolitician(slug) {
     showPoliticianData();
   });
 
-  /*
-  fbPP.child("politician/" + politician_id).once("value", function(snapshot){
-    politician = snapshot.val();
-
-    if (!politician.checked_person) {
-      loadPoliticianData(politician_id);
-    } else {
-      showPoliticianData();
-    }
-  });
-  */
-
 }
+
+
+
 
 function loadPoliticians() {
   $.getJSON("data/person.json", function(p) {
@@ -256,6 +325,10 @@ $(document).ready(function(){
   } else {
     randomizePolitician();
   }
+
+
+  fbPP = new Firebase(FIREBASE_ROOT);
+
 
   /*
   fbPP.child("politicians").once("value", function(snapshot) {

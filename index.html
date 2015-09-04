@@ -2,7 +2,7 @@
 <html lang="en" ng-app="todomvc" data-framework="firebase">
   <head>
     <meta charset="utf-8">
-    <title>PoliPoll</title>
+    <title>My Stars</title>
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -26,18 +26,19 @@
       <div class="header mdl-layout__header mdl-layout__header--waterfall">
         <div class="mdl-layout__header-row">
           <span class="mdl-layout-title">
-            Poli Poll
+            My Stars
           </span>
           <!-- Add spacer, to align navigation to the right in desktop -->
           <div class="mdl-layout-spacer"></div>
           <!-- Navigation -->
           <div class="navigation-container">
             <nav class="navigation mdl-navigation">
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="politicians.html">Politicians</a>
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="about.html">About</a>
             </nav>
           </div>
           <span class="mobile-title mdl-layout-title">
-            Poli Poll
+            My Stars
           </span>
         </div>
       </div>
@@ -58,8 +59,6 @@
 
 
               <div class="mdl-grid">
-
-
 
                 <div class="politician-photo mdl-cell mdl-cell--5-col mdl-card__supporting-text">
                 </div>
@@ -113,25 +112,25 @@
                       <tr class="model" style-"display:none;">
                         <td class="mdl-data-table__cell--non-numeric">
                           <p>
-                            <b class="director_name"></b> (<span class="certainty"></span>% match)<br/>
+                            <b class="director_name"></b> <!-- (<span class="certainty"></span>% match) --><br/>
                             Company: <b class="company_name"></b><br/>
-                            Projects: <b class="project_count"></b><br/>
-                            Total Amount: $ <b class="project_sum"></b><br/>
+                            Projects: <b class="num_projects"></b><br/>
+                            Total Amount: $ <b class="sum_projects_value"></b><br/>
                             Speciality: <b class="speciality"></b>
                           </p>
                         </td>
                         <td class="votes mdl-data-table__cell--non-numeric">
 
                           <div class="buttons" style="">
-                            <button class="chart_green mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                            <button data-vote="green" class="chart_green mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
                                Confirm <span class="icon material-icons">ic_thumb_up</span>
                             </button><br/>
 
-                            <button class="chart_yellow mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                            <button data-vote="yellow" class="chart_yellow mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
                                Don't know <span class="icon material-icons">ic_help_outline</span>
                             </button><br/>
 
-                            <button class="chart_red mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                            <button data-vote="red" class="chart_red mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
                                Not him/her <span class="icon material-icons">ic_thumb_down</span>
                             </button>
 
