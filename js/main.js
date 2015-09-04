@@ -235,7 +235,6 @@ function randomizePolitician() {
 $(document).ready(function(){
   $(".loading").fadeIn();
   $(".matches, .vote").hide();
-  
 
   $("#btn_play").click(function(e){
     e.preventDefault();
@@ -272,9 +271,6 @@ $(document).ready(function(){
   });
   */
 
-
-
-  console.log("OK");
 });
 
 
